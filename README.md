@@ -2,10 +2,10 @@
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Amireh, Marwan
+2. Angulo Pérez, Jaime
+3. Medina Domínguez, Juan José
+4. Rodríguez Rodríguez, Miguel Ángel
 
 ## 1. Introducción al problema
 
