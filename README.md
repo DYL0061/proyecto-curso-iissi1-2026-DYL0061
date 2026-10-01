@@ -1,6 +1,6 @@
 # Título Proyecto
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo L9-FJO
 
 1. Amireh, Marwan
 2. Angulo Pérez, Jaime
