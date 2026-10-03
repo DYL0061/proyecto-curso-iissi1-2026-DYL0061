@@ -81,7 +81,7 @@
 
 • **Vacaciones:** Periodo en el que un trabajador deja de acudir al trabajo para disfrutar varios dias de descanso.Existe un sistema rotativo y se pueden solicitar cambios.
 
-![alt text](image.png) ![alt text](image-1.png) ![alt text](image-2.png)
+![alt text](image.png) ![alt text](image-1.png) 
 
 ## 3. Visión general del sistema
 
