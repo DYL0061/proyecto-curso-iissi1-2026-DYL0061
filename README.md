@@ -17,7 +17,7 @@
 
 • **Ausencia**: Situación en la que un trabajador no acude a trabajar.Puede deberse a permiso,licencia,vacaciones,baja,accidente,etc.
 
-• **Baja:** Situación en la que un trabajador no trabaja debido a una baja laboral o a un accidente de trabajo.
+• **Baja:** Periodo en el que un trabajador se encuntra ausente debido a problemas de salud principalmente.
 
 • **Cambio de vacaciones:** Solicitud de un trabajador para modificar sus vacaciones.Se realiza mediante una solicitud escrita y, si se aprueba,se registra el cambio.
 
@@ -69,7 +69,7 @@
 
 • **Sustituto:** Persona encargada de cubrir una labor mientras el trabajador no puede ejercer por motivo alguno.
 
-• **Talla:** Talla que necesita un trabajador para cada tipo de uniforme.
+• **Talla:** Tamaño de prenda que necesita un trabajador para cada tipo de uniforme.
 
 • **Tarjeta:** Tarjeta identificativa y digital asociada al trabajador que se utiliza para registrar la entrada y salida.
 
@@ -81,7 +81,7 @@
 
 • **Vacaciones:** Periodo en el que un trabajador deja de acudir al trabajo para disfrutar varios dias de descanso.Existe un sistema rotativo y se pueden solicitar cambios.
 
-![alt text](image.png) ![alt text](lector_pequena.png)
+![alt text](hospital1.jpg) ![alt text](fichaje.jpg) ![alt text](maternal2.png)
 
 ## 3. Visión general del sistema
 
