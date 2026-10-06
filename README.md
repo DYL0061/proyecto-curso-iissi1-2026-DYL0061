@@ -95,9 +95,7 @@
 
 #### R.F.01. Consultar la situación diaria de la plantilla
 
-Como responsable de planificación  
-quiero consultar la situación de todos los trabajadores en una fecha, con el motivo si están ausentes  
-para saber quién trabaja, quién descansa y quién falta
+Como responsable de planificación quiero consultar la situación de todos los trabajadores en una fecha, con el motivo si están ausentes para saber quién trabaja, quién descansa y quién falta.
 
 **Prueba de aceptación**
 
