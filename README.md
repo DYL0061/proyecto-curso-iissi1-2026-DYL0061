@@ -13,7 +13,7 @@
 
 ## 2. Glosario de términos
 
-• **Área**: Zona del hospital en la que existen puestos que han de ser cubiertos,como cocina,maternal,infantil o traumatología.
+• **Área**: Zona del hospital en la que existen puestos que han de ser cubiertos, como cocina,maternal,infantil o traumatología.
 
 • **Ausencia**: Situación en la que un trabajador no acude a trabajar.Puede deberse a permiso,licencia,vacaciones,baja,accidente,etc.
 
