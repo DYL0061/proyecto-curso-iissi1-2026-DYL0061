@@ -9,7 +9,10 @@
 
 ## 1. Introducción al problema
 
-- Descripción del problema para poner en contexto el proyecto, incluyendo información sobre los clientes y usuarios, la situación actual, problemas, expectativas, etc. Se valorará la presencia de información multimedia (fotos, gráficos, documentos escaneados, etc.).
+ **Gestor de Empleados**.<br>
+ Con este proyecto, buscamos solucionar un problema real. Un encargado de limpieza hospitalaria que necesita una forma cómoda y simple de administrar su personal.<br>
+ El producto va dirigido a jefes y responsables que necesiten llevar un control de sus empleados y organizarlos.<br>
+ Partimos de una soluicón pobre y falta de funcionalidad ya implementada. Nuestro objetivo es proporcionar un sistema eficiente, escalable y mantenible en el tiempo, que pueda facilitar el registro de información, y la planificación, tanto a corto, como a largo plazo. 
 
 ## 2. Glosario de términos
 
