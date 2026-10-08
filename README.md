@@ -90,7 +90,17 @@
 
 ### 3.1. Requisitos generales
 
+#### R.G.01 Administrar a los empleados.
+
+Como responsable de planificación, quiero tener el control de mi plantilla, y poder gestionarlos de manera cómoda.
+
+#### R.G.01 Registrar información.
+
+Como encargado del personal, quiero poder consultar y almacenar información relevante de mis empleados.
+
 ### 3.2. Usuarios del sistema
+
+El sistema está dirigido a dueños de negocios, encargados de personal, responsables de planificación, y, en general, a todo aquel que tenga personas a su cargo.
 
 ## 4. Catálogo de requisitos
 
@@ -98,7 +108,7 @@
 
 #### R.F.01. Consultar la situación diaria de la plantilla
 
-Como responsable de planificación quiero consultar la situación de todos los trabajadores en una fecha, con el motivo si están ausentes para saber quién trabaja, quién descansa y quién falta.
+Como encargado del personal, quiero consultar la situación de todos los trabajadores en una fecha, para saber quién trabaja, quién descansa y quién falta.
 
 **Prueba de aceptación**
 
@@ -107,7 +117,7 @@ Como responsable de planificación quiero consultar la situación de todos los t
 
 #### R.F.02. Listar los trabajadores disponibles en una fecha
 
-Como responsable de planificación quiero listar los trabajadores disponibles (ni ausentes ni en descanso) en una fecha para decidir a quién puedo asignar a un puesto.
+Como responsable de planificación, quiero listar los trabajadores disponibles (ni ausentes ni en descanso) en una fecha para decidir a quién puedo asignar a un puesto.
 
 **Prueba de aceptación**
 
@@ -116,16 +126,16 @@ Como responsable de planificación quiero listar los trabajadores disponibles (n
 
 #### R.F.03. Consultar la asignación nocturna por área y puesto
 
-Como responsable de planificación quiero consultar quién ocupa cada puesto de cada área en una noche para comprobar que el hospital tiene el personal organizado.
+Como responsable de calidad del turno de noche, quiero consultar quién ocupa cada puesto de cada área en una noche para comprobar que el hospital tiene el personal organizado.
 
 **Prueba de aceptación**
 
-- Aparecen las cuatro áreas con sus trabajadores y el refuerzo diferenciado.
+- Aparecen todas las áreas con sus trabajadores y el refuerzo diferenciado.
 - Ningún trabajador aparece en dos puestos la misma noche (R.N.03)
 
 #### R.F.04. Listar los puestos sin cubrir en una noche
 
-Como responsable de planificación quiero listar los puestos que quedan sin cubrir en una noche concreta para buscar quien los ocupe antes de que el hospital se quede sin personal.
+Como responsable de planificación, quiero listar los puestos que quedan sin cubrir en una noche concreta para buscar quien los ocupe antes de que el hospital se quede sin personal.
 
 **Prueba de aceptación**
 
@@ -135,7 +145,7 @@ Como responsable de planificación quiero listar los puestos que quedan sin cubr
 
 #### R.F.05. Consultar el calendario mensual
 
-Como responsable de planificación quiero consultar el mes completo con la situación de cada día y los festivos para ver la planificación mensual de la plantilla.
+Como responsable de planificación, quiero consultar el mes completo, con la situación de cada día, y los festivos para ver la planificación mensual de la plantilla.
 
 **Prueba de aceptación**
 
@@ -145,7 +155,7 @@ Como responsable de planificación quiero consultar el mes completo con la situa
 
 #### R.F.06. Consultar la ficha y los permisos pendientes de un trabajador
 
-Como responsable de planificación quiero consultar la ficha de un trabajador con sus permisos solicitados, disfrutados y pendientes para saber qué días puede coger ya y cuáles le faltan.
+Como encargado del personal, quiero consultar la ficha de un trabajador con sus permisos solicitados, disfrutados y pendientes para saber qué días puede coger ya y cuáles le faltan.
 
 **Prueba de aceptación**
 
@@ -155,7 +165,7 @@ Como responsable de planificación quiero consultar la ficha de un trabajador co
 
 #### R.F.07. Listar las solicitudes pendientes
 
-Como responsable de planificación quiero listar las solicitudes de descanso y de cambio de vacaciones sin resolver para decidir cuáles puedo conceder.
+Como encargado del personal, quiero listar las solicitudes de descanso y de cambio de vacaciones sin resolver para decidir cuáles puedo conceder.
 
 **Prueba de aceptación**
 
@@ -165,7 +175,7 @@ Como responsable de planificación quiero listar las solicitudes de descanso y d
 
 #### R.F.08. Consultar el cuadrante de vacaciones y los sustitutos necesarios
 
-Como responsable de planificación quiero consultar, mes a mes, quién se va de vacaciones y cuántos sustitutos necesito para contratarlos a tiempo.
+Como responsable de planificación, quiero consultar mes a mes, quién se va de vacaciones y cuántos sustitutos necesito para contratarlos a tiempo.
 
 **Prueba de aceptación**
 
@@ -175,7 +185,7 @@ Como responsable de planificación quiero consultar, mes a mes, quién se va de 
 
 #### R.F.09. Consultar los fichajes y las horas de un trabajador
 
-Como responsable de planificación quiero consultar los fichajes, las horas acumuladas y las horas de compensación de un trabajador para controlar que no trabaja más ni menos de lo establecido.
+Como responsable de calidad, quiero consultar los fichajes, las horas acumuladas y las horas de compensación de un trabajador para controlar que no trabaja más ni menos de lo establecido.
 
 **Prueba de aceptación**
 
@@ -185,7 +195,7 @@ Como responsable de planificación quiero consultar los fichajes, las horas acum
 
 #### R.F.10. Listar las faltas injustificadas y las salidas anticipadas
 
-Como responsable de planificación quiero listar las faltas injustificadas y las salidas anticipadas de un periodo para anotarlas en el estadillo.
+Como encargado del personal, quiero listar las faltas injustificadas y las salidas anticipadas de un periodo para anotarlas en el estadillo.
 
 **Prueba de aceptación**
 
@@ -195,16 +205,16 @@ Como responsable de planificación quiero listar las faltas injustificadas y las
 
 #### R.F.11. Consultar los uniformes que hay que pedir
 
-Como responsable de planificación quiero consultar cuántos uniformes pedir por tipo de prenda y talla, con previsión para sustitutos para solicitarlos correctamente.
+Como encargado del material, quiero consultar cuántos uniformes pedir por tipo de prenda y talla, con previsión para sustitutos para solicitarlos correctamente.
 
 **Prueba de aceptación**
 
-- Si tres trabajadores usan equipaje de talla M, aparecen 3 equipajes de talla M más la previsión.
+- Si tres trabajadores usan ropa de talla M, aparecen 3 equipajes de talla M más la previsión.
 - El resultado se desglosa por tipo de prenda.
 
 #### R.F.12. Consultar el estadillo mensual
 
-Como responsable de planificación quiero consultar el estadillo de un mes con la situación de cada trabajador cada día para enviar a la oficina el documento oficial.
+Como encargado del personal, quiero consultar el estadillo de un mes con la situación de cada trabajador cada día para enviar a la oficina el documento oficial.
 
 **Prueba de aceptación**
 
