@@ -16,51 +16,51 @@
 
 ## 2. Glosario de términos
 
-• **Área**: Zona del hospital en la que existen puestos que han de ser cubiertos, como cocina,maternal,infantil o traumatología.
+• **Área**: Zona del hospital en la que existen puestos que han de ser cubiertos, como cocina, maternal, infantil o traumatología.
 
-• **Ausencia**: Situación en la que un trabajador no acude a trabajar.Puede deberse a permiso,licencia,vacaciones,baja,accidente,etc.
+• **Ausencia**: Situación en la que un trabajador no acude a trabajar. Puede deberse a permiso, licencia, vacaciones, baja, accidente, etc.
 
-• **Baja:** Periodo en el que un trabajador se encuntra ausente debido a problemas de salud principalmente.
+• **Baja:** Periodo en el que un trabajador se encuntra ausente debido a problemas de salud, principalmente.
 
-• **Cambio de vacaciones:** Solicitud de un trabajador para modificar sus vacaciones.Se realiza mediante una solicitud escrita y, si se aprueba,se registra el cambio.
+• **Cambio de vacaciones:** Solicitud de un trabajador para modificar sus vacaciones. Se realiza por escrito y, si se aprueba, se registra el cambio.
 
-• **Contrato:** Relación pactada del trabajador con el hospital.La finalización del contrato es uno de los motivos por los que se ausenta un trabajador.
+• **Contrato:** Relación pactada del trabajador con el hospital. La finalización del contrato es uno de los motivos por los que se ausenta un trabajador.
 
-• **Cuadrante:** Tabla o documento utilizado para organizar y registrar la planificación de trabajadores,permisos,vacaciones,etc.
+• **Cuadrante:** Tabla o documento utilizado para organizar y registrar la planificación de trabajadores, permisos, vacaciones, etc.
 
-• **Día de descanso:** Día en el que el trabajador no ejerce porque corresponde a su descanso.En el estadillo aparece mediante D.
+• **Día de descanso:** Fecha en la que el trabajador no ejerce porque corresponde a su descanso. En el estadillo aparece mediante D.
 
-• **Día disfrutado:** Día en el que finalmente el trabajador disfruta un permiso que previamente había solicitado.
+• **Día disfrutado:** Fecha en la que finalmente el trabajador disfruta un permiso que previamente había solicitado.
 
-• **Día festivo:** Día festivo que debe tenerse en cuenta para organizar los trabajadores y los permisos.
+• **Día festivo:** Fecha que debe tenerse en cuenta para organizar los trabajadores y los permisos.
 
 • **Día solicitado:** Fecha en la que el trabajador solicita disfrutar un permiso o descanso.
 
-• **Día trabajado:** Día en el que el trabajador ejerce su labor.En el estadillo se representa con X.
+• **Día trabajado:** Fecha en la que el trabajador ejerce su labor. En el estadillo se representa con X.
 
 • **Estadillo:** Documento oficial que se envía a la oficina donde se indica la situación de cada trabajador.
 
-• **Falta injustificada:** Ausencia del trabajador sin una causa justificada.También se registra si se marcha antes sin motivo justificado.
+• **Falta injustificada:** Ausencia del trabajador sin una causa justificada. También se registra si se marcha antes sin motivo justificado.
 
-• **Falta justificada:** Ausencia del trabajador que tiene una causa justificada.
+• **Falta justificada:** Ausencia del trabajador por motivos legítimos.
 
-• **Ficha del trabajador:** Información asociada a cada trabajador donde se registran,entre otras cosas,sus permisos durante el año.
+• **Ficha del trabajador:** Información asociada a cada trabajador donde se registran, entre otras cosas, sus permisos durante el año.
 
-• **Fichaje(Pica Digital):** Registro de la entrada y salida de un trabajador.El sistema registra las horas mediante una tarjeta digital.
+• **Fichaje (Pica Digital):** Registro de la entrada y salida de un trabajador. El sistema registra las horas mediante una tarjeta digital.
 
-• **Hora de compensación:** Hora que el trabajador puede utilizar como compensación por determinados días,como Semana Santa, feria o Navidad.
+• **Hora de compensación:** Hora que el trabajador puede utilizar a su disposición, dadas en determinados días, como Semana Santa, Feria o Navidad.
 
-• **Hora de entrada:** Hora a la que el trabajador comienza a trabajar,registrada mediante el sistema de fichaje.
+• **Hora de entrada:** Hora a la que el trabajador comienza a trabajar, registrada mediante el sistema de fichaje.
 
-• **Hora de salida:** Hora a la que el trabajador termina de trabajar un determinado día.
+• **Hora de salida:** Hora a la que el trabajador termina de trabajar un determinado día, registrada mediante el sistema de fichaje.
 
-• **Hora de salida anticipada:** Hora a la que un trabajador termina de trabajar antes de lo habitual por algún motivo.
+• **Hora de salida anticipada:** Registro del horario en el que un trabajador termina su jornada antes de lo habitual por algún motivo.
 
-• **Horas acumuladas:** Total de horas acumuladas por un trabajador según sus registros de trabajo o fichaje.
+• **Horas acumuladas:** Total de horas trabajadas por un empleado según sus registros de trabajo o fichaje.
 
-• **Licencia:** Tipo de ausencia que puede producirse por determinadas circunstancias,como una intervención familiar,una intervención propia o un examen.
+• **Licencia:** Tipo de ausencia que puede producirse por determinadas circunstancias, como una intervención familiar, una intervención propia o un examen.
 
-• **Permiso:** Ausencia solicitada por un trabajador.Es importante distinguir entre la fecha en que se solicita y la fecha en que finalmente se disfruta.
+• **Permiso:** Ausencia solicitada por un trabajador. Es importante distinguir entre la fecha en que se solicita y la fecha en que finalmente se disfruta.
 
 • **Puesto de trabajo:** Lugar que debe ser cubierto por un trabajador dentro de un área.
 
@@ -74,15 +74,15 @@
 
 • **Talla:** Tamaño de prenda que necesita un trabajador para cada tipo de uniforme.
 
-• **Tarjeta:** Tarjeta identificativa y digital asociada al trabajador que se utiliza para registrar la entrada y salida.
+• **Tarjeta:** Tarjeta identificativa digital asociada al trabajador, que se utiliza para registrar la entrada y salida.
 
-• **Trabajador:** Persona que trabaja en el hospital y sobre la que se almacena información relativa a su trabajo, ausencias, permisos, vacaciones, fichajes, uniformes, etc.
+• **Trabajador:** Persona que ejerce en el hospital y sobre la que se almacena información relativa a su trabajo, ausencias, permisos, vacaciones, fichajes, uniformes, etc.
 
-• **Turno rotatorio:** Sistema de turnos que va rotando entre los trabajadores y condiciona, entre otras cosas,la elección de determinados días festivos.
+• **Turno rotatorio:** Sistema de turnos que va rotando entre los trabajadores y condiciona, entre otras cosas, la elección de determinados días festivos.
 
-• **Uniforme:** Ropa de trabajo asignada a los trabajadores.Se tienen casacas, pantalones, politos, chalecos y camisas.
+• **Uniforme:** Ropa de trabajo dada al personal. Se tienen casacas, pantalones, politos, chalecos y camisas.
 
-• **Vacaciones:** Periodo en el que un trabajador deja de acudir al trabajo para disfrutar varios dias de descanso.Existe un sistema rotativo y se pueden solicitar cambios.
+• **Vacaciones:** Periodo en el que un empleado deja de acudir al trabajo para disfrutar varios días de descanso. Existe un sistema rotativo y se pueden solicitar cambios.
 
 ![alt text](hospital1.jpg) ![alt text](fichaje.jpg) ![alt text](maternal2.png)
 
