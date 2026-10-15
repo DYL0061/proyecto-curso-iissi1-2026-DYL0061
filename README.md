@@ -1,7 +1,7 @@
 # Gestor de Empleados: Planificación del personal de limpieza hospitalario
 
 
-## Miembros del grupo L9-FJO
+## Miembros del grupo L4-FJO-9
 
 1. Amireh, Marwan
 2. Angulo Pérez, Jaime
