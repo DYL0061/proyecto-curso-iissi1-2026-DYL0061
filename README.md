@@ -101,6 +101,8 @@
 
 (EDITAR) Como encargado del personal, quiero poder consultar y almacenar información relevante de mis empleados.
 
+#### R.G.02 (HACER UN TERCERO)
+
 ### 3.2. Usuarios del sistema
 
 El sistema está dirigido a dueños de negocios, encargados de personal, responsables de planificación, y, en general, a todo aquel que tenga personas a su cargo.
@@ -265,7 +267,7 @@ Como responsable de planificación quiero almacenar en qué puesto trabaja cada 
 
 ##### R.I.05. Día festivo
 
-Como responsable de planificación quiero almacenar los festivos del año con su tipo (ordinario o especial) para organizar a los trabajadores y los permisos.
+Como responsable de planificación quiero almacenar los festivos del año con su tipo (ordinario o especial) para organizar a los trabajadores y los permisos. (ESPECIFICAR EN GLOSARIO ORDINARIO O ESPECIAL)
 
 **Prueba de aceptación**
 
@@ -327,7 +329,7 @@ Como responsable de planificación quiero almacenar las horas de compensación q
 - Se genera una hora por día trabajado en Semana Santa, feria o Navidad.
 - No se pueden disfrutar más horas de las generadas.
 
-##### R.I.12. Uniforme y talla
+##### R.I.12. Uniforme y talla (NO DEBERÍA ESTAR)
 
 Como responsable de planificación quiero almacenar la talla de cada trabajador para cada tipo de prenda (casaca, pantalón, polito, chaleco y camisa) para saber cuántos uniformes pedir.
 
@@ -354,7 +356,7 @@ Un trabajador solo puede ocupar un puesto en la misma noche.
 
 Quien está ausente (permiso, licencia, vacaciones, baja, accidente o contrato finalizado) no puede ser asignado a un puesto ese día.
 
-##### R.N.05. Solicitud previa y festivos ya transcurridos
+##### R.N.05. Solicitud previa y festivos ya transcurridos (REDACTAR DE NUEVO)
 
 Un permiso se solicita antes de disfrutarse y solo se puede disfrutar el correspondiente a un festivo que ya ha pasado (si el último fue el 15 de agosto, no se puede conceder uno por el 12 de octubre).
 
@@ -368,9 +370,9 @@ Por ley, las licencias duran 5 días por la intervención de un familiar de prim
 
 ##### R.N.08. Rotación de las vacaciones
 
-Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar.
+Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar. En caso de empleado nuevo, se le asignará para sus vacaciones el mes con menos falta de personal.
 
-##### R.N.09. Solicitudes por escrito
+##### R.N.09. Solicitudes por escrito (MAL, DEBERIAN HACERSE POR LA APLICACIÓN)
 
 Los días de descanso y los cambios de vacaciones se solicitan por escrito, y un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
 
@@ -415,7 +417,7 @@ Todas las historias son del único usuario del sistema: el **responsable de plan
 **R.N.F. 01. Código de colores del calendario**  
 Como responsable de planificación quiero que el calendario use colores fijos (rosa festivo, verde permiso y licencia, amarillo vacaciones y beige baja) para identificar cada situación de un vistazo.
 
-**R.N.F. 02. Consulta diaria y mensual en pantalla**  
+**R.N.F. 02. Consulta diaria y mensual en pantalla**  (ESTE REQUISITO DEBE SER FUNCIONAL)
 Como responsable de planificación quiero ver en una sola pantalla la situación de cada día y del mes para no recorrer varios documentos.
 
 **R.N.F. 03. Compatibilidad con MariaDB**  
