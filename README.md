@@ -22,7 +22,7 @@
 
 • **Ausencia**: Situación en la que un trabajador no acude a trabajar. Puede deberse a permiso, licencia, vacaciones, baja, accidente, etc.
 
-• **Baja:** Periodo en el que un trabajador se encuntra ausente debido a problemas de salud, principalmente.
+• **Baja:** Periodo en el que un trabajador se encuentra ausente debido a problemas de salud, principalmente.
 
 • **Cambio de vacaciones:** Solicitud de un trabajador para modificar sus vacaciones. Se realiza por escrito y, si se aprueba, se registra el cambio.
 
