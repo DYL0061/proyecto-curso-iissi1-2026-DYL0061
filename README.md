@@ -404,7 +404,7 @@ Todas las historias son del único usuario del sistema: el **responsable de plan
 
 | Actividad | Historias de usuario | Requisitos |
 | --- | --- | --- |
-| Planificar la plantilla nocturna | Ver quién trabaja, quién está disponible y qué puestos quedan sin cubrir | R.F.01 a R.F.05, R.I.01 a R.I.04 |
+| Planificar la plantilla | Ver quién trabaja, quién está disponible y qué puestos quedan sin cubrir | R.F.01 a R.F.05, R.I.01 a R.I.04 |
 | Gestionar permisos y licencias | Ver permisos pendientes y resolver solicitudes | R.F.06, R.F.07, R.I.05 a R.I.07, R.I.09 |
 | Gestionar vacaciones | Ver el cuadrante y los sustitutos necesarios | R.F.08, R.I.08 |
 | Controlar horas y asistencia | Ver fichajes, compensaciones y faltas | R.F.09, R.F.10, R.I.10, R.I.11 |
