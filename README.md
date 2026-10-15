@@ -13,7 +13,7 @@
  **Gestor de Empleados**.<br>
  Con este proyecto, buscamos solucionar un problema real. Un encargado de limpieza hospitalaria que necesita una forma cómoda y simple de administrar su personal.<br>
  El producto va dirigido a jefes y responsables que necesiten llevar un control de sus empleados y organizarlos.<br>
- Nuestro cliente es un encargado, que trabaja en el hospital Virgen de la Rocío, cubriendo el turno de noche.<br>
+ Nuestro cliente es un encargado, que trabaja en el hospital Virgen del Rocío, cubriendo el turno de noche.<br>
  Partimos de una solución pobre y falta de funcionalidad ya implementada. Nuestro objetivo es proporcionar un sistema eficiente, escalable y mantenible en el tiempo, que pueda facilitar el registro de información, y la planificación, tanto a corto, como a largo plazo. 
 
 ## 2. Glosario de términos
