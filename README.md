@@ -93,13 +93,13 @@
 
 ### 3.1. Requisitos generales
 
-#### R.G.01 Administrar a los empleados.
+#### R.G.01 Gestionar la información de los empleados
 
-Como responsable de planificación, quiero tener el control de mi plantilla, y poder gestionarlos de manera cómoda.
+(EDITAR) Como responsable de planificación, quiero tener el control de mi plantilla, y poder gestionarlos de manera cómoda.
 
-#### R.G.02 Registrar información.
+#### R.G.02 Gestionar turnos de trabajo
 
-Como encargado del personal, quiero poder consultar y almacenar información relevante de mis empleados.
+(EDITAR) Como encargado del personal, quiero poder consultar y almacenar información relevante de mis empleados.
 
 ### 3.2. Usuarios del sistema
 
