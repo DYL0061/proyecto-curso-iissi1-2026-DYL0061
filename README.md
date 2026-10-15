@@ -12,7 +12,7 @@
  **Gestor de Empleados**.<br>
  Con este proyecto, buscamos solucionar un problema real. Un encargado de limpieza hospitalaria que necesita una forma cómoda y simple de administrar su personal.<br>
  El producto va dirigido a jefes y responsables que necesiten llevar un control de sus empleados y organizarlos.<br>
- Nuestro cliente es un encargado, que trabaja en el hospital Virgen de la Rocina, cubriendo el turno de noche.<br>
+ Nuestro cliente es un encargado, que trabaja en el hospital Virgen de la Rocío, cubriendo el turno de noche.<br>
  Partimos de una soluicón pobre y falta de funcionalidad ya implementada. Nuestro objetivo es proporcionar un sistema eficiente, escalable y mantenible en el tiempo, que pueda facilitar el registro de información, y la planificación, tanto a corto, como a largo plazo. 
 
 ## 2. Glosario de términos
@@ -86,6 +86,7 @@
 • **Vacaciones:** Periodo en el que un empleado deja de acudir al trabajo para disfrutar varios días de descanso. Existe un sistema rotativo y se pueden solicitar cambios.
 
 ![alt text](hospital1.jpg) ![alt text](fichaje.jpg) ![alt text](maternal2.png)
+[![Demo del proyecto](https://img.youtube.com/vi/euCpTzxPYWM/maxresdefault.jpg)](https://youtu.be/euCpTzxPYWM)
 
 ## 3. Visión general del sistema
 
