@@ -97,7 +97,7 @@
 
 Como responsable de planificación, quiero tener el control de mi plantilla, y poder gestionarlos de manera cómoda.
 
-#### R.G.01 Registrar información.
+#### R.G.02 Registrar información.
 
 Como encargado del personal, quiero poder consultar y almacenar información relevante de mis empleados.
 
