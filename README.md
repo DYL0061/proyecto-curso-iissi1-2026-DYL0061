@@ -15,7 +15,6 @@
 
 ## 2. Glosario de términos
 
-## 2. Glosario de términos
 | **Término** | **Definición** | **Imagen** |
 |:---|:---|:---:|
 | **Área** | Zona del hospital en la que existen puestos que han de ser cubiertos, como cocina, maternal, infantil o traumatología. | <img width="120" alt="Área hospitalaria" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=240&h=150&q=80" /> |
