@@ -1,6 +1,3 @@
-# Gestor de Empleados: Planificación del personal de limpieza hospitalario
-
-
 ## Miembros del grupo L4-FJO-9
 
 1. Amireh, Marwan
@@ -18,74 +15,44 @@
 
 ## 2. Glosario de términos
 
-• **Área**: Zona del hospital en la que existen puestos que han de ser cubiertos, como cocina, maternal, infantil o traumatología.
+## 2. Glosario de términos
 
-• **Ausencia**: Situación en la que un trabajador no acude a trabajar. Puede deberse a permiso, licencia, vacaciones, baja, accidente, etc.
-
-• **Baja:** Periodo en el que un trabajador se encuentra ausente debido a problemas de salud, principalmente.
-
-• **Cambio de vacaciones:** Solicitud de un trabajador para modificar sus vacaciones. Se realiza por escrito y, si se aprueba, se registra el cambio.
-
-• **Contrato:** Relación pactada del trabajador con el hospital. La finalización del contrato es uno de los motivos por los que se ausenta un trabajador.
-
-• **Cuadrante:** Tabla o documento utilizado para organizar y registrar la planificación de trabajadores, permisos, vacaciones, etc.
-
-• **Día de descanso:** Fecha en la que el trabajador no ejerce porque corresponde a su descanso. En el estadillo aparece mediante D.
-
-• **Día disfrutado:** Fecha en la que finalmente el trabajador disfruta un permiso que previamente había solicitado.
-
-• **Día festivo:** Fecha que debe tenerse en cuenta para organizar los trabajadores y los permisos.
-
-• **Día solicitado:** Fecha en la que el trabajador solicita disfrutar un permiso o descanso.
-
-• **Día trabajado:** Fecha en la que el trabajador ejerce su labor. En el estadillo se representa con X.
-
-• **Estadillo:** Documento oficial que se envía a la oficina donde se indica la situación de cada trabajador.
-
-• **Falta injustificada:** Ausencia del trabajador sin una causa justificada. También se registra si se marcha antes sin motivo justificado.
-
-• **Falta justificada:** Ausencia del trabajador por motivos legítimos.
-
-• **Ficha del trabajador:** Información asociada a cada trabajador donde se registran, entre otras cosas, sus permisos durante el año.
-
-• **Fichaje (Pica Digital):** Registro de la entrada y salida de un trabajador. El sistema registra las horas mediante una tarjeta digital.
-
-• **Hora de compensación:** Hora que el trabajador puede utilizar a su disposición, dadas en determinados días, como Semana Santa, Feria o Navidad.
-
-• **Hora de entrada:** Hora a la que el trabajador comienza a trabajar, registrada mediante el sistema de fichaje.
-
-• **Hora de salida:** Hora a la que el trabajador termina de trabajar un determinado día, registrada mediante el sistema de fichaje.
-
-• **Hora de salida anticipada:** Registro del horario en el que un trabajador termina su jornada antes de lo habitual por algún motivo.
-
-• **Horas acumuladas:** Total de horas trabajadas por un empleado según sus registros de trabajo o fichaje.
-
-• **Licencia:** Tipo de ausencia que puede producirse por determinadas circunstancias, como una intervención familiar, una intervención propia o un examen.
-
-• **Permiso:** Ausencia solicitada por un trabajador. Es importante distinguir entre la fecha en que se solicita y la fecha en que finalmente se disfruta.
-
-• **Puesto de trabajo:** Lugar que debe ser cubierto por un trabajador dentro de un área.
-
-• **Refuerzo:** Persona de apoyo que realiza tareas complementarias y puede ocupar un puesto cuando es necesario.
-
-• **Situación laboral diaria:** Situación en la que se encuentra un trabajador en un día concreto: trabaja, descanso, permiso, vacaciones, enfermedad, accidente, etc.
-
-• **Solicitud:** Petición realizada por el trabajador, por ejemplo para solicitar un día de descanso o un cambio de vacaciones.
-
-• **Sustituto:** Persona encargada de cubrir una labor mientras el trabajador no puede ejercer por motivo alguno.
-
-• **Talla:** Tamaño de prenda que necesita un trabajador para cada tipo de uniforme.
-
-• **Tarjeta:** Tarjeta identificativa digital asociada al trabajador, que se utiliza para registrar la entrada y salida.
-
-• **Trabajador:** Persona que ejerce en el hospital y sobre la que se almacena información relativa a su trabajo, ausencias, permisos, vacaciones, fichajes, uniformes, etc.
-
-• **Turno rotatorio:** Sistema de turnos que va rotando entre los trabajadores y condiciona, entre otras cosas, la elección de determinados días festivos.
-
-• **Uniforme:** Ropa de trabajo dada al personal. Se tienen casacas, pantalones, politos, chalecos y camisas.
-
-• **Vacaciones:** Periodo en el que un empleado deja de acudir al trabajo para disfrutar varios días de descanso. Existe un sistema rotativo y se pueden solicitar cambios.
-
+| **Término** | **Definición** | **Imagen** |
+|:---|:---|:---:|
+| **Área** | Zona del hospital en la que existen puestos que han de ser cubiertos, como cocina, maternal, infantil o traumatología. | <img width="120" alt="Área hospitalaria" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Ausencia** | Situación en la que un trabajador no acude a trabajar. Puede deberse a permiso, licencia, vacaciones, baja, accidente, etc. | <img width="120" alt="Calendario de ausencias" src="https://images.unsplash.com/photo-1506784983877-45594ef4c5be?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Baja** | Periodo en el que un trabajador se encuentra ausente debido a problemas de salud, principalmente. | <img width="120" alt="Atención sanitaria" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Cambio de vacaciones** | Solicitud de un trabajador para modificar sus vacaciones. Se realiza por escrito y, si se aprueba, se registra el cambio. | <img width="120" alt="Destino de vacaciones" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Contrato** | Relación pactada del trabajador con el hospital. La finalización del contrato es uno de los motivos por los que se ausenta un trabajador. | <img width="120" alt="Contrato laboral" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Cuadrante** | Tabla o documento utilizado para organizar y registrar la planificación de trabajadores, permisos, vacaciones, etc. | <img width="120" alt="Planificación laboral" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Día de descanso** | Fecha en la que el trabajador no ejerce porque corresponde a su descanso. En el estadillo aparece mediante D. | <img width="120" alt="Descanso" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Día disfrutado** | Fecha en la que finalmente el trabajador disfruta un permiso que previamente había solicitado. | <img width="120" alt="Día marcado en calendario" src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Día festivo** | Fecha que debe tenerse en cuenta para organizar los trabajadores y los permisos. | <img width="120" alt="Celebración festiva" src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Día solicitado** | Fecha en la que el trabajador solicita disfrutar un permiso o descanso. | <img width="120" alt="Solicitud escrita" src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Día trabajado** | Fecha en la que el trabajador ejerce su labor. En el estadillo se representa con X. | <img width="120" alt="Trabajo en equipo" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Estadillo** | Documento oficial que se envía a la oficina donde se indica la situación de cada trabajador. | <img width="120" alt="Documento y escritura" src="https://images.unsplash.com/photo-1455390582262-044c822a6df8?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Falta injustificada** | Ausencia del trabajador sin una causa justificada. También se registra si se marcha antes sin motivo justificado. | <img width="120" alt="Puesto de trabajo vacío" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Falta justificada** | Ausencia del trabajador por motivos legítimos. | <img width="120" alt="Justificante médico" src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Ficha del trabajador** | Información asociada a cada trabajador donde se registran, entre otras cosas, sus permisos durante el año. | <img width="120" alt="Información del personal" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Fichaje (Pica Digital)** | Registro de la entrada y salida de un trabajador. El sistema registra las horas mediante una tarjeta digital. | <img width="120" alt="Control digital" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Hora de compensación** | Hora que el trabajador puede utilizar a su disposición, dadas en determinados días, como Semana Santa, Feria o Navidad. | <img width="120" alt="Reloj de compensación" src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Hora de entrada** | Hora a la que el trabajador comienza a trabajar, registrada mediante el sistema de fichaje. | <img width="120" alt="Inicio de jornada" src="https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Hora de salida** | Hora a la que el trabajador termina de trabajar un determinado día, registrada mediante el sistema de fichaje. | <img width="120" alt="Final de jornada" src="https://images.unsplash.com/photo-1506784983877-45594ef4c5be?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Hora de salida anticipada** | Registro del horario en el que un trabajador termina su jornada antes de lo habitual por algún motivo. | <img width="120" alt="Reloj de pared" src="https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Horas acumuladas** | Total de horas trabajadas por un empleado según sus registros de trabajo o fichaje. | <img width="120" alt="Análisis de horas" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Licencia** | Tipo de ausencia que puede producirse por determinadas circunstancias, como una intervención familiar, una intervención propia o un examen. | <img width="120" alt="Documentación de licencia" src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Permiso** | Ausencia solicitada por un trabajador. Es importante distinguir entre la fecha en que se solicita y la fecha en que finalmente se disfruta. | <img width="120" alt="Permiso laboral" src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Puesto de trabajo** | Lugar que debe ser cubierto por un trabajador dentro de un área. | <img width="120" alt="Puesto de trabajo en oficina" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Refuerzo** | Persona de apoyo que realiza tareas complementarias y puede ocupar un puesto cuando es necesario. | <img width="120" alt="Equipo sanitario" src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Situación laboral diaria** | Situación en la que se encuentra un trabajador en un día concreto: trabaja, descanso, permiso, vacaciones, enfermedad, accidente, etc. | <img width="120" alt="Organización diaria" src="https://images.unsplash.com/photo-1506784983877-45594ef4c5be?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Solicitud** | Petición realizada por el trabajador, por ejemplo para solicitar un día de descanso o un cambio de vacaciones. | <img width="120" alt="Petición administrativa" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Sustituto** | Persona encargada de cubrir una labor mientras el trabajador no puede ejercer por motivo alguno. | <img width="120" alt="Profesionales sanitarios" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Talla** | Tamaño de prenda que necesita un trabajador para cada tipo de uniforme. | <img width="120" alt="Ropa y prendas" src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Tarjeta** | Tarjeta identificativa digital asociada al trabajador, que se utiliza para registrar la entrada y salida. | <img width="120" alt="Tarjeta identificativa" src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Trabajador** | Persona que ejerce en el hospital y sobre la que se almacena información relativa a su trabajo, ausencias, permisos, vacaciones, fichajes, uniformes, etc. | <img width="120" alt="Profesional sanitario" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Turno rotatorio** | Sistema de turnos que va rotando entre los trabajadores y condiciona, entre otras cosas, la elección de determinados días festivos. | <img width="120" alt="Organización de turnos" src="https://images.unsplash.com/photo-1506784983877-45594ef4c5be?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Uniforme** | Ropa de trabajo dada al personal. Se tienen casacas, pantalones, politos, chalecos y camisas. | <img width="120" alt="Uniforme de trabajo" src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=240&h=150&q=80" /> |
+| **Vacaciones** | Periodo en el que un empleado deja de acudir al trabajo para disfrutar varios días de descanso. Existe un sistema rotativo y se pueden solicitar cambios. | <img width="120" alt="Descanso vacacional" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=240&h=150&q=80" /> |
 ![alt text](hospital1.jpg) ![alt text](fichaje.jpg) ![alt text](maternal2.png)
 [![Demo del proyecto](https://img.youtube.com/vi/euCpTzxPYWM/maxresdefault.jpg)](https://youtu.be/euCpTzxPYWM)
 
