@@ -68,8 +68,15 @@ Como encargado del personal, quiero controlar las ausencias, los permisos, las v
 
 ### 3.2. Usuarios del sistema
 
-El sistema está dirigido a dueños de negocios, encargados de personal, responsables de planificación, y, en general, a todo aquel que tenga personas a su cargo.
+### 3.2. Usuarios del sistema
 
+El sistema está dirigido hacia:
+
+🔴 Encargados de personal
+🔴 Responsables de planificación
+🔴 Responsables de calidad
+
+Y, en general, para todo aquel que tenga personas a su cargo.
 ## 4. Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales
@@ -375,16 +382,16 @@ Todas las historias son del único usuario del sistema: el **responsable de plan
 | Controlar horas y asistencia | Ver fichajes, compensaciones y faltas | R.F.09, R.F.10, R.I.10, R.I.11 |
 | Gestionar uniformes y estadillo | Pedir uniformes y preparar el estadillo | R.F.11, R.F.12, R.I.12 |
 
-### 4.3. Requisitos no funcionales (opcional)
+### 4.3. Requisitos no funcionales 
 
-**R.N.F. 01. Código de colores del calendario**  
-Como responsable de planificación quiero que el calendario use colores fijos (rosa festivo, verde permiso y licencia, amarillo vacaciones y beige baja) para identificar cada situación de un vistazo.
-
-**R.N.F. 02. Consulta diaria y mensual en pantalla**  (ESTE REQUISITO DEBE SER FUNCIONAL)
-Como responsable de planificación quiero ver en una sola pantalla la situación de cada día y del mes para no recorrer varios documentos.
-
-**R.N.F. 03. Compatibilidad con MariaDB**  
+**R.N.F. 01 Compatibilidad con MariaDB**  
 Como responsable de planificación quiero que el sistema funcione sobre un servidor MariaDB para cumplir los requisitos técnicos del proyecto.
+
+**R.N.F.02 Seguridad y protección de datos**
+El sistema debe garantizar la confidencialidad de la información de los empleados, impidiendo el acceso a los datos personales y laborales por parte de personas no autorizadas.
+
+**R.N.F.03 Mantenibilidad**
+El sistema debe estar organizado de forma óptima para facilitar la corrección de errores, el mantenimiento y la incorporación de nuevas funcionalidades en el futuro.
 
 -- fin entregable 1 --
 
