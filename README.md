@@ -111,7 +111,7 @@ El sistema está dirigido a dueños de negocios, encargados de personal, respons
 
 Como encargado del personal, quiero consultar la situación de todos los trabajadores en una fecha, para saber quién trabaja, quién descansa y quién falta.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Aparecen todos los trabajadores con su situación (trabajado, descanso, permiso, vacaciones, baja, etc.)
 - Cada trabajador aparece con una única situación (R.N.01)
@@ -120,7 +120,7 @@ Como encargado del personal, quiero consultar la situación de todos los trabaja
 
 Como responsable de planificación, quiero listar los trabajadores disponibles (ni ausentes ni en descanso) en una fecha para decidir a quién puedo asignar a un puesto.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Un trabajador de vacaciones, de baja, con permiso o con contrato finalizado no aparece.
 - Se debe aplicar la regla de negocio R.N.04.
@@ -129,7 +129,7 @@ Como responsable de planificación, quiero listar los trabajadores disponibles (
 
 Como responsable de calidad del turno de noche, quiero consultar quién ocupa cada puesto de cada área en una noche para comprobar que el hospital tiene el personal organizado.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Aparecen todas las áreas con sus trabajadores y el refuerzo diferenciado.
 - Ningún trabajador aparece en dos puestos la misma noche (R.N.03)
@@ -138,7 +138,7 @@ Como responsable de calidad del turno de noche, quiero consultar quién ocupa ca
 
 Como responsable de planificación, quiero listar los puestos que quedan sin cubrir en una noche concreta para buscar quien los ocupe antes de que el hospital se quede sin personal.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Si cocina solo tiene un trabajador, aparece con un puesto sin cubrir.
 - Si todo está cubierto, el listado está vacío.
@@ -148,7 +148,7 @@ Como responsable de planificación, quiero listar los puestos que quedan sin cub
 
 Como responsable de planificación, quiero consultar el mes completo, con la situación de cada día, y los festivos para ver la planificación mensual de la plantilla.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Se muestran todos los días del mes con la situación de cada trabajador.
 - Los festivos aparecen marcados.
@@ -158,7 +158,7 @@ Como responsable de planificación, quiero consultar el mes completo, con la sit
 
 Como encargado del personal, quiero consultar la ficha de un trabajador con sus permisos solicitados, disfrutados y pendientes para saber qué días puede coger ya y cuáles le faltan.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Con 14 permisos por festivos y 5 disfrutados, quedan 9 hasta final de año.
 - "Hasta la fecha" solo cuenta los festivos ya transcurridos: consultando después del 15 de agosto no se incluye el 12 de octubre.
@@ -168,7 +168,7 @@ Como encargado del personal, quiero consultar la ficha de un trabajador con sus 
 
 Como encargado del personal, quiero listar las solicitudes de descanso y de cambio de vacaciones sin resolver para decidir cuáles puedo conceder.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Una solicitud pendiente aparece con el trabajador, el tipo y la fecha.
 - Una solicitud aprobada o rechazada no aparece.
@@ -178,7 +178,7 @@ Como encargado del personal, quiero listar las solicitudes de descanso y de camb
 
 Como responsable de planificación, quiero consultar mes a mes, quién se va de vacaciones y cuántos sustitutos necesito para contratarlos a tiempo.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Cada mes muestra los trabajadores de vacaciones y el número de sustitutos.
 - Quien este año tiene julio aparece con agosto el año siguiente.
@@ -188,7 +188,7 @@ Como responsable de planificación, quiero consultar mes a mes, quién se va de 
 
 Como responsable de calidad, quiero consultar los fichajes, las horas acumuladas y las horas de compensación de un trabajador para controlar que no trabaja más ni menos de lo establecido.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Las horas acumuladas coinciden con la suma de los fichajes.
 - Quien trabajó 2 días en Semana Santa tiene 2 horas de compensación y el saldo nunca es negativo.
@@ -198,7 +198,7 @@ Como responsable de calidad, quiero consultar los fichajes, las horas acumuladas
 
 Como encargado del personal, quiero listar las faltas injustificadas y las salidas anticipadas de un periodo para anotarlas en el estadillo.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Una salida anticipada con motivo aparece como justificada, y sin motivo como falta.
 - Una ausencia sin causa justificada aparece como falta injustificada.
@@ -208,7 +208,8 @@ Como encargado del personal, quiero listar las faltas injustificadas y las salid
 
 Como encargado del material, quiero consultar cuántos uniformes pedir por tipo de prenda y talla, con previsión para sustitutos para solicitarlos correctamente.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
+
 
 - Si tres trabajadores usan ropa de talla M, aparecen 3 equipajes de talla M más la previsión.
 - El resultado se desglosa por tipo de prenda.
@@ -217,7 +218,7 @@ Como encargado del material, quiero consultar cuántos uniformes pedir por tipo 
 
 Como encargado del personal, quiero consultar el estadillo de un mes con la situación de cada trabajador cada día para enviar a la oficina el documento oficial.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Cada día aparece con su código oficial (X, D, P, V, E, A, L, EX, M o F)
 - Se muestran las noches y los festivos trabajados con su tipo.
@@ -227,109 +228,108 @@ Como encargado del personal, quiero consultar el estadillo de un mes con la situ
 
 ##### R.I.01. Trabajador y contrato
 
-Como responsable de planificación quiero almacenar el nombre, apellidos, DNI y tipo (plantilla o sustituto) de cada trabajador, con su contrato (fecha de inicio y de fin) para saber con quién cuento y hasta cuándo.
+Como encargado del personal, quiero almacenar el nombre, apellidos, DNI y tipo (plantilla o sustituto) de cada trabajador, con su contrato (fecha de inicio y de fin) para saber con quién cuento y hasta cuándo.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - No se puede registrar un trabajador sin DNI ni dos con el mismo DNI.
 - No se acepta un contrato con fecha de fin anterior a la de inicio.
 
 ##### R.I.02. Área y puesto de trabajo
 
-Como responsable de planificación quiero almacenar las áreas (cocina, maternal, infantil y traumatología), sus puestos y la persona de refuerzo para saber cuántos trabajadores necesito cada noche.
+Como responsable de planificación, quiero almacenar las áreas (cocina, maternal, infantil y traumatología), sus puestos y la persona de refuerzo para saber cuántos trabajadores necesito cada noche.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Todo puesto pertenece a un área.
 - Cocina tiene 2 puestos, maternal 2, infantil 1 y traumatología 2.
 
 ##### R.I.03. Situación laboral diaria
 
-Como responsable de planificación quiero almacenar la situación de cada trabajador cada día (trabajado, descanso, permiso, licencia, vacaciones, enfermedad, accidente, lactancia, excedencia, maternidad, falta o fin de contrato) para controlar quién acude a trabajar y quién no.
+Como encargado del personal, quiero almacenar la situación de cada trabajador cada día (trabajado, descanso, permiso, licencia, vacaciones, enfermedad, accidente, lactancia, excedencia, maternidad, falta o fin de contrato) para controlar quién acude a trabajar y quién no.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - No se puede registrar una situación sin trabajador o sin fecha.
 - Un trabajador no puede tener dos situaciones distintas el mismo día.
 
 ##### R.I.04. Asignación a un puesto
 
-Como responsable de planificación quiero almacenar en qué puesto trabaja cada trabajador cada noche, con su hora de salida y el motivo si sale antes para saber quién cubre cada puesto.
+Como encargado del personal, quiero almacenar en qué puesto trabaja cada trabajador cada noche, con su hora de salida y el motivo si sale antes para saber quién cubre cada puesto.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Se puede anotar la hora de salida y el motivo de una salida anticipada.
 - Un trabajador no puede ser asignado a dos puestos la misma noche.
 
 ##### R.I.05. Día festivo
 
-Como responsable de planificación quiero almacenar los festivos del año con su tipo (ordinario o especial) para organizar a los trabajadores y los permisos.
+Como responsable de planificación, quiero almacenar los festivos del año con su tipo (ordinario o especial) para organizar a los trabajadores y los permisos.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
-- Viernes Santo, 1 de enero y Reyes se registran como especiales.
+- Viernes Santo, uno de enero y Reyes se registran como especiales.
 - No pueden existir dos festivos en la misma fecha.
 
 ##### R.I.06. Ficha y permisos
 
-Como responsable de planificación quiero almacenar los permisos anuales de cada trabajador (festivos, feria, Navidad, Semana Santa, libre disposición y un domingo), con la fecha de solicitud y la de disfrute  
-para distinguir lo que pide de lo que realmente coge.
+Como responsable de planificación, quiero almacenar los permisos anuales de cada trabajador (festivos, feria, Navidad, Semana Santa, libre disposición), con la fecha de solicitud y la de disfrute, para distinguir lo que pide de lo que realmente coge.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Se puede registrar un permiso solicitado sin fecha de disfrute.
 - No se acepta una fecha de disfrute anterior a la de solicitud.
 
 ##### R.I.07. Licencia
 
-Como responsable de planificación quiero almacenar las licencias con su motivo (familiar de primer o segundo grado, propia o examen), fecha de inicio y días para registrar las ausencias justificadas por ley.
+Como responsable de planificación, quiero almacenar las licencias con su motivo (familiar de primer o segundo grado, propia o examen), fecha de inicio y días para registrar las ausencias justificadas por ley.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - No se acepta una licencia sin motivo.
 - Un trabajador puede tener varias licencias en el mismo año.
 
 ##### R.I.08. Vacaciones y sustitución
 
-Como responsable de planificación quiero almacenar las vacaciones de cada trabajador por año y el sustituto que cubre cada periodo para llevar la rotación y el cuadrante.
+Como responsable de planificación, quiero almacenar las vacaciones de cada trabajador por año y el sustituto que cubre cada periodo para llevar la rotación y el cuadrante.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - No pueden solaparse dos periodos de vacaciones del mismo trabajador.
 - Se conservan las vacaciones de años anteriores.
 
 ##### R.I.09. Solicitud
 
-Como responsable de planificación quiero almacenar las solicitudes de descanso y de cambio de vacaciones con su estado (pendiente, aprobada o rechazada) para saber qué debo resolver.
+Como encargado del personal, quiero almacenar las solicitudes de descanso y de cambio de vacaciones con su estado (pendiente, aprobada o rechazada) para saber qué debo resolver.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Una solicitud nueva queda pendiente.
 - Se puede cambiar su estado a aprobada o rechazada.
 
 ##### R.I.10. Tarjeta y fichaje
 
-Como responsable de planificación quiero almacenar la tarjeta de cada trabajador y sus fichajes con hora de entrada y de salida para controlar las horas trabajadas.
+Como encargado del personal, quiero almacenar la tarjeta de cada trabajador y sus fichajes con hora de entrada y de salida para controlar las horas trabajadas.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Una tarjeta pertenece a un único trabajador.
 - No se acepta una hora de salida anterior a la de entrada.
 
 ##### R.I.11. Hora de compensación
 
-Como responsable de planificación quiero almacenar las horas de compensación que genera cada trabajador y el día en que las disfruta para saber cuántas puede utilizar para salir antes.
+Como encargado del personal, quiero almacenar las horas de compensación que genera cada trabajador y el día en que las disfruta para saber cuántas puede utilizar para salir antes.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Se genera una hora por día trabajado en Semana Santa, feria o Navidad.
 - No se pueden disfrutar más horas de las generadas.
 
 ##### R.I.12. Uniforme y talla
 
-Como responsable de planificación quiero almacenar la talla de cada trabajador para cada tipo de prenda (casaca, pantalón, polito, chaleco y camisa) para saber cuántos uniformes pedir.
+Como responsable de material, quiero almacenar la talla de cada trabajador para cada tipo de prenda (casaca, pantalón, polito, chaleco y camisa) para saber cuántos uniformes pedir.
 
-**Prueba de aceptación**
+##### *Prueba de aceptación*
 
 - Un trabajador solo tiene una talla por tipo de prenda.
 - Los sustitutos también tienen sus tallas registradas.
@@ -394,9 +394,9 @@ Todos los festivos trabajados se pagan aparte, pero Viernes Santo, 1 de enero y 
 
 ##### R.N.15. Códigos del estadillo
 
-El estadillo usa estos códigos: E (enfermedad), D (descanso), X (trabajado), L (lactancia), A (accidente), EX (excedencia), M (maternidad), V (vacaciones), F (falta) y P (permiso).
+Los códigos del estadillo son: E (enfermedad), D (descanso), X (trabajado), L (lactancia), A (accidente), EX (excedencia), M (maternidad), V (vacaciones), F (falta) y P (permiso).
 
-### 4.2. Mapa de historias de usuario (opcional)
+### 4.2. Mapa de historias de usuario
 
 Todas las historias son del único usuario del sistema: el **responsable de planificación**.
 
@@ -408,7 +408,7 @@ Todas las historias son del único usuario del sistema: el **responsable de plan
 | Controlar horas y asistencia | Ver fichajes, compensaciones y faltas | R.F.09, R.F.10, R.I.10, R.I.11 |
 | Gestionar uniformes y estadillo | Pedir uniformes y preparar el estadillo | R.F.11, R.F.12, R.I.12 |
 
-### 4.3. Requisitos no funcionales (opcional)
+### 4.3. Requisitos no funcionales
 
 **R.N.F. 01. Código de colores del calendario**  
 Como responsable de planificación quiero que el calendario use colores fijos (rosa festivo, verde permiso y licencia, amarillo vacaciones y beige baja) para identificar cada situación de un vistazo.
