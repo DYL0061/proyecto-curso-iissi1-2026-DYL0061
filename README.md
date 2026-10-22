@@ -25,7 +25,7 @@
 | **Cuadrante** | Tabla o documento utilizado para organizar y registrar la planificación de trabajadores, permisos, vacaciones, etc. | <img width="120" alt="Cuadrante de planificación" src="https://images.ctfassets.net/p03bi75xct27/1WvJ86F5UWcpMam6iTmcoY/b84cff4a8bb983e0f2262f813a873838/Plantilla_cuadrante_mensual_excel_gratis__1_.png" /> |
 | **Día de descanso** | Fecha en la que el trabajador no ejerce porque corresponde a su descanso. En el estadillo aparece mediante D. | <img width="120" alt="Descanso" src="https://www.adeccoinstitute.es/wp-content/uploads/2023/07/Descansos-durante-la-jornada-laboral.jpg" /> |
 | **Día disfrutado** | Fecha en la que finalmente el trabajador disfruta un permiso que previamente había solicitado. | <img width="120" alt="Día disfrutado en calendario" src="https://media.istockphoto.com/id/881217980/photo/networking-at-a-coffee-break.jpg?s=170667a&w=0&k=20&c=Jh1pCVtOGvrF13wefw6GoHM20pTuZsn2ad5x-YIPoSw=" /> |
-| **Día festivo** | Fecha que debe tenerse en cuenta para organizar los trabajadores y los permisos. | <img width="120" alt="Día festivo" src="https://tse4.mm.bing.net/th/id/OIP.OLg80u5J2gPBNQ3qF06nGAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" /> |
+| **Día festivo** | Fecha que debe tenerse en cuenta para organizar los trabajadores y los permisos.  | <img width="120" alt="Día festivo" src="https://tse4.mm.bing.net/th/id/OIP.OLg80u5J2gPBNQ3qF06nGAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" /> |
 | **Día solicitado** | Fecha en la que el trabajador solicita disfrutar un permiso o descanso. | <img width="120" alt="Solicitud de permiso por ordenador" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=240&h=150&q=80" /> |
 | **Día trabajado** | Fecha en la que el trabajador ejerce su labor. En el estadillo se representa con X. | <img width="120" alt="Profesional trabajando en el hospital" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=240&h=150&q=80" /> |
 | **Estadillo** | Documento oficial que se envía a la oficina donde se indica la situación de cada trabajador. | <img width="120" alt="Estadillo de trabajadores con registros" src="https://www.slideteam.net/wp/wp-content/uploads/2023/07/Hoja-de-trabajo-del-empleado-con-objetivos-y-cronograma-del-proyecto-7.png" /> |
@@ -202,7 +202,7 @@ Como encargado del personal, quiero consultar el estadillo de un mes con la situ
 
 ##### R.I.01. Trabajador y contrato
 
-Como encargado del personal, quiero almacenar el nombre, apellidos, DNI y tipo (plantilla o sustituto) de cada trabajador, con su contrato (fecha de inicio y de fin) para saber con quién cuento y hasta cuándo.
+Como encargado del personal, quiero almacenar el nombre, apellidos, DNI, tallas, y tipo (plantilla o sustituto) de cada trabajador, con su contrato (fecha de inicio y de fin) para saber con quién cuento y hasta cuándo.
 
 ##### *Prueba de aceptación*
 
@@ -238,7 +238,7 @@ Como encargado del personal, quiero almacenar en qué puesto trabaja cada trabaj
 
 ##### R.I.05. Día festivo
 
-Como responsable de planificación, quiero almacenar los festivos del año con su tipo (ordinario o especial) para organizar a los trabajadores y los permisos.
+Como responsable de planificación, quiero almacenar los festivos del año con su tipo para organizar a los trabajadores y los permisos.
 
 ##### *Prueba de aceptación*
 
@@ -326,9 +326,9 @@ Un trabajador solo puede ocupar un puesto en la misma noche.
 
 Quien está ausente (permiso, licencia, vacaciones, baja, accidente o contrato finalizado) no puede ser asignado a un puesto ese día.
 
-##### R.N.05. Solicitud previa y festivos ya transcurridos
+##### R.N.05. Solicitud previa de festivos
 
-Un permiso se solicita antes de disfrutarse y solo se puede disfrutar el correspondiente a un festivo que ya ha pasado (si el último fue el 15 de agosto, no se puede conceder uno por el 12 de octubre).
+Para poder disfrutar un festivo, primero hay que solicitarlo.
 
 ##### R.N.06. Permisos anuales
 
@@ -342,9 +342,9 @@ Por ley, las licencias duran 5 días por la intervención de un familiar de prim
 
 Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar.
 
-##### R.N.09. Solicitudes por escrito
+##### R.N.09. Solicitudes por aplicación
 
-Los días de descanso y los cambios de vacaciones se solicitan por escrito, y un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
+Los días de descanso y los cambios de vacaciones se solicitan por la aplicación, y un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
 
 ##### R.N.10. Sustitución de vacaciones
 
