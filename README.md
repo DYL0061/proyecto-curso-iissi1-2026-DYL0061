@@ -38,10 +38,10 @@
 | **Hora de salida anticipada** | Registro del horario en el que un trabajador termina su jornada antes de lo habitual por algún motivo. | <img width="120" alt="Reloj de pared" src="https://fotografias.antena3.com/clipping/cmsimages01/2021/10/22/05749F08-8F3D-44F6-A485-F81C85947D02/default.jpg?crop=16:9&optimize=low&format=webply" /> |
 | **Horas acumuladas** | Total de horas trabajadas por un empleado según sus registros de trabajo o fichaje. | <img width="120" alt="Gráfico de horas acumuladas" src="https://imagenes.eleconomista.com.mx/files/webp_768_768/uploads/2018/06/08/66e4e25326c3a.png" /> |
 | **Licencia** | Tipo de ausencia que puede producirse por determinadas circunstancias, como una intervención familiar, una intervención propia o un examen. | <img width="120" alt="Documento de licencia" src="https://www.packagingcorp.com/wp-content/uploads/2023/06/Permiso-de-ausencia-992x661.jpg" /> |
-| **Permiso** | Ausencia solicitada por un trabajador. Es importante distinguir entre la fecha en que se solicita y la fecha en que finalmente se disfruta. | <img width="120" alt="Solicitud de permiso laboral" src="https://www.bloghispanodenegocios.com/wp-content/uploads/2018/10/Requisitos-para-obtener-permiso-de-trabajo-categoria-c08-640x280.jpg" /> |
+| **Permiso** | Ausencia solicitada por un trabajador. | <img width="120" alt="Solicitud de permiso laboral" src="https://www.bloghispanodenegocios.com/wp-content/uploads/2018/10/Requisitos-para-obtener-permiso-de-trabajo-categoria-c08-640x280.jpg" /> |
 | **Puesto de trabajo** | Lugar que debe ser cubierto por un trabajador dentro de un área. | <img width="120" alt="Puesto de trabajo" src="https://tucontenidoweb.com/wp-content/uploads/Auxiliar-de-Limpieza-Hospitalaria.png" /> |
 | **Refuerzo** | Persona de apoyo que realiza tareas complementarias y puede ocupar un puesto cuando es necesario. | <img width="120" alt="Equipo de profesionales sanitarios" src="https://png.pngtree.com/thumb_back/fh260/background/20230321/pngtree-the-two-male-colleagues-in-the-office-photo-image_1991854.jpg" /> |
-| **Situación laboral diaria** | Situación en la que se encuentra un trabajador en un día concreto: trabaja, descanso, permiso, vacaciones, enfermedad, accidente, etc. | <img width="120" alt="Planificación diaria del personal" src="https://img.freepik.com/fotos-premium/trabajador-hospital-haciendo-limpieza-habitacion-ilustracion-generativa-ia_145713-3060.jpg?w=1380" /> |
+| **Situación laboral diaria** | Estado en el que se encuentra un trabajador en un día concreto: trabaja, descanso, permiso, vacaciones, enfermedad, accidente, etc. | <img width="120" alt="Planificación diaria del personal" src="https://img.freepik.com/fotos-premium/trabajador-hospital-haciendo-limpieza-habitacion-ilustracion-generativa-ia_145713-3060.jpg?w=1380" /> |
 | **Solicitud** | Petición realizada por el trabajador, por ejemplo para solicitar un día de descanso o un cambio de vacaciones. | <img width="120" alt="Solicitud realizada por ordenador" src="https://s1.abcstatics.com/abc/www/multimedia/sevilla/2023/06/09/ordenador-RHm0lEGWsLuxCkHWxF6yxcM-1200x840@abc.jpeg" /> |
 | **Sustituto** | Persona encargada de cubrir una labor mientras el trabajador no puede ejercer por motivo alguno. | <img width="120" alt="Profesionales sanitarios" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&h=150&q=80" /> |
 | **Talla** | Tamaño de prenda que necesita un trabajador para cada tipo de uniforme. | <img width="120" alt="Ropa y prendas" src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=240&h=150&q=80" /> |
@@ -68,13 +68,12 @@ Como encargado del personal, quiero controlar las ausencias, los permisos, las v
 
 ### 3.2. Usuarios del sistema
 
-### 3.2. Usuarios del sistema
-
 El sistema está dirigido hacia:
 
-🔴 Encargados de personal
-🔴 Responsables de planificación
-🔴 Responsables de calidad
+🔴 Encargados de personal<br>
+🔴 Responsables de planificación<br>
+🔴 Responsables de calidad<br>
+🔴 Encargados del material<br>
 
 Y, en general, para todo aquel que tenga personas a su cargo.
 ## 4. Catálogo de requisitos
@@ -97,26 +96,26 @@ Como responsable de planificación, quiero listar los trabajadores disponibles (
 ##### *Prueba de aceptación*
 
 - Un trabajador de vacaciones, de baja, con permiso o con contrato finalizado no aparece.
-- Se debe aplicar la regla de negocio R.N.04.
+- Quien está ausente (permiso, licencia, vacaciones, baja, accidente o contrato finalizado) no puede ser asignado a un puesto ese día.
 
-#### R.F.03. Consultar la asignación nocturna por área y puesto
+#### R.F.03. Consultar la asignación por área y puesto
 
-Como responsable de calidad del turno de noche, quiero consultar quién ocupa cada puesto de cada área en una noche para comprobar que el hospital tiene el personal organizado.
+Como responsable de calidad, quiero consultar quién ocupa cada puesto, de cada área, en un turno determinado, para comprobar que el hospital tiene el personal organizado.
 
 ##### *Prueba de aceptación*
 
 - Aparecen todas las áreas con sus trabajadores y el refuerzo diferenciado.
-- Ningún trabajador aparece en dos puestos la misma noche (R.N.03)
+- Un trabajador solo puede ocupar un puesto en la misma noche.
 
-#### R.F.04. Listar los puestos sin cubrir en una noche
+#### R.F.04. Listar los puestos sin cubrir
 
-Como responsable de planificación, quiero listar los puestos que quedan sin cubrir en una noche concreta para buscar quien los ocupe antes de que el hospital se quede sin personal.
+Como responsable de planificación, quiero listar los puestos que quedan sin cubrir en un turno concreto para buscar quien los ocupe antes de que el hospital se quede sin personal.
 
 ##### *Prueba de aceptación*
 
 - Si cocina solo tiene un trabajador, aparece con un puesto sin cubrir.
 - Si todo está cubierto, el listado está vacío.
-- Se deben aplicar las reglas de negocio R.N.02 y R.N.04.
+- Se debe aplicar la regla de negocio R.N.02.
 
 #### R.F.05. Consultar el calendario mensual
 
@@ -136,7 +135,7 @@ Como encargado del personal, quiero consultar la ficha de un trabajador con sus 
 
 - Con 14 permisos por festivos y 5 disfrutados, quedan 9 hasta final de año.
 - "Hasta la fecha" solo cuenta los festivos ya transcurridos: consultando después del 15 de agosto no se incluye el 12 de octubre.
-- Se deben aplicar las reglas de negocio R.N.05 y R.N.06.
+- Se deben aplicar las reglas de negocio R.N.03 y R.N.04.
 
 #### R.F.07. Listar las solicitudes pendientes
 
@@ -146,7 +145,7 @@ Como encargado del personal, quiero listar las solicitudes de descanso y de camb
 
 - Una solicitud pendiente aparece con el trabajador, el tipo y la fecha.
 - Una solicitud aprobada o rechazada no aparece.
-- Se debe aplicar la regla de negocio R.N.09.
+- Se debe aplicar la regla de negocio R.N.07.
 
 #### R.F.08. Consultar el cuadrante de vacaciones y los sustitutos necesarios
 
@@ -156,7 +155,7 @@ Como responsable de planificación, quiero consultar mes a mes, quién se va de 
 
 - Cada mes muestra los trabajadores de vacaciones y el número de sustitutos.
 - Quien este año tiene julio aparece con agosto el año siguiente.
-- Se deben aplicar las reglas de negocio R.N.08, R.N.09 y R.N.10.
+- Se deben aplicar las reglas de negocio R.N.06, R.N.07 y R.N.09.
 
 #### R.F.09. Consultar los fichajes y las horas de un trabajador
 
@@ -165,8 +164,8 @@ Como responsable de calidad, quiero consultar los fichajes, las horas acumuladas
 ##### *Prueba de aceptación*
 
 - Las horas acumuladas coinciden con la suma de los fichajes.
-- Quien trabajó 2 días en Semana Santa tiene 2 horas de compensación y el saldo nunca es negativo.
-- Se deben aplicar las reglas de negocio R.N.11 y R.N.12.
+- Quien trabajó 2 días en Semana Santa tiene 2 horas de compensación.
+- Se deben aplicar las reglas de negocio R.N.10 y R.N.11.
 
 #### R.F.10. Listar las faltas injustificadas y las salidas anticipadas
 
@@ -176,7 +175,7 @@ Como encargado del personal, quiero listar las faltas injustificadas y las salid
 
 - Una salida anticipada con motivo aparece como justificada, y sin motivo como falta.
 - Una ausencia sin causa justificada aparece como falta injustificada.
-- Se debe aplicar la regla de negocio R.N.13.
+- Se debe aplicar la regla de negocio R.N.12.
 
 #### R.F.11. Consultar los uniformes que hay que pedir
 
@@ -196,7 +195,16 @@ Como encargado del personal, quiero consultar el estadillo de un mes con la situ
 
 - Cada día aparece con su código oficial (X, D, P, V, E, A, L, EX, M o F)
 - Se muestran las noches y los festivos trabajados con su tipo.
-- Se deben aplicar las reglas de negocio R.N.13, R.N.14 y R.N.15.
+- Se deben aplicar las reglas de negocio R.N.12, R.N.13 y R.N.14.
+
+#### R.F.13. Consultar los festivos de cada trabajador
+
+Como encargado del personal, quiero consultar los festivos que ha trabajado cada empleado, con su tipo, para resolver los aumentos de salario correspondientes.
+
+##### *Prueba de aceptación*
+
+- Si un empleado ha trabajado dos festivos, se muestran esos dos festivos y no otros.
+- El viernes santo, uno de enero y el día de reyes se marca como festivo especial.
 
 #### 4.1.1. Requisitos de información
 
@@ -229,7 +237,7 @@ Como encargado del personal, quiero almacenar la situación de cada trabajador c
 
 ##### R.I.04. Asignación a un puesto
 
-Como encargado del personal, quiero almacenar en qué puesto trabaja cada trabajador cada noche, con su hora de salida y el motivo si sale antes para saber quién cubre cada puesto.
+Como encargado del personal, quiero almacenar en qué puesto trabaja cada trabajador cada día, con su hora de salida y el motivo si sale antes para saber quién cubre cada puesto.
 
 ##### *Prueba de aceptación*
 
@@ -283,7 +291,7 @@ Como encargado del personal, quiero almacenar las solicitudes de descanso y de c
 
 ##### R.I.10. Tarjeta y fichaje
 
-Como encargado del personal, quiero almacenar la tarjeta de cada trabajador y sus fichajes con hora de entrada y de salida para controlar las horas trabajadas.
+Como encargado del personal, quiero almacenar la tarjeta de cada trabajador, sus fichajes con hora de entrada y de salida, y el cúmulo de horas, para controlar las horas trabajadas.
 
 ##### *Prueba de aceptación*
 
@@ -292,16 +300,12 @@ Como encargado del personal, quiero almacenar la tarjeta de cada trabajador y su
 
 ##### R.I.11. Hora de compensación
 
-Como encargado del personal, quiero almacenar las horas de compensación que genera cada trabajador y el día en que las disfruta para saber cuántas puede utilizar para salir antes.
+Como encargado del personal, quiero almacenar las horas de compensación que genera cada trabajador, el día en que las disfruta y el día por al que pertenecen, para saber cuántas puede utilizar para salir antes.
 
 ##### *Prueba de aceptación*
 
 - Se genera una hora por día trabajado en Semana Santa, feria o Navidad.
 - No se pueden disfrutar más horas de las generadas.
-
-##### R.I.12. Uniforme y talla
-
-Como responsable de material, quiero almacenar la talla de cada trabajador para cada tipo de prenda (casaca, pantalón, polito, chaleco y camisa) para saber cuántos uniformes pedir.
 
 ##### *Prueba de aceptación*
 
@@ -318,55 +322,51 @@ Un trabajador solo puede tener una situación laboral en una fecha concreta.
 
 Cada noche deben estar cubiertos todos los puestos: 2 trabajadores en cocina, 2 en maternal, 1 en infantil y 2 en traumatología, más normalmente una persona de refuerzo que ocupa el puesto que quede vacío. Esto se cumple siempre, incluso ante un acontecimiento extraordinario.
 
-##### R.N.03. Un único puesto por noche
-
-Un trabajador solo puede ocupar un puesto en la misma noche.
-
-##### R.N.04. Un trabajador ausente no puede cubrir un puesto
-
-Quien está ausente (permiso, licencia, vacaciones, baja, accidente o contrato finalizado) no puede ser asignado a un puesto ese día.
-
-##### R.N.05. Solicitud previa de festivos
+##### R.N.03. Solicitud previa de festivos
 
 Para poder disfrutar un festivo, primero hay que solicitarlo.
 
-##### R.N.06. Permisos anuales
+##### R.N.04. Permisos anuales
 
 Cada año, cada trabajador debe disfrutar los 14 festivos, un día de feria, uno de Navidad, uno de Semana Santa, los días de libre disposición y un domingo a elegir.
 
-##### R.N.07. Duración de las licencias
+##### R.N.05. Duración de las licencias
 
 Por ley, las licencias duran 5 días por la intervención de un familiar de primer grado, 3 si es de segundo grado y 1 por motivos propios (intervención, examen, etc.). No hay límite anual.
 
-##### R.N.08. Rotación de las vacaciones
+##### R.N.06. Rotación de las vacaciones
 
 Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar.
 
-##### R.N.09. Solicitudes por aplicación
+##### R.N.07. Solicitudes por aplicación
 
-Los días de descanso y los cambios de vacaciones se solicitan por la aplicación, y un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
+Los días de descanso y los cambios de vacaciones se solicitan por la aplicación. 
 
-##### R.N.10. Sustitución de vacaciones
+##### R.N.8. Cambios en las vacaciones
 
-Los huecos de quienes están de vacaciones se cubren con sustitutos contratados, y el cuadrante indica cuántos hacen falta.
+Un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
 
-##### R.N.11. Horas de compensación
+##### R.N.9. Sustitución de vacaciones
 
-Se genera una hora por cada día trabajado en Semana Santa, feria o Navidad, que puede disfrutarse durante todo el año, sin superar las generadas.
+Los huecos de quienes están de vacaciones se cubren con sustitutos contratados.
 
-##### R.N.12. Fichaje obligatorio
+##### R.N.10. Horas de compensación
+
+Se genera una hora por cada día trabajado en Semana Santa, feria o Navidad, que puede disfrutarse durante todo el año.
+
+##### R.N.11. Fichaje obligatorio
 
 Todo trabajador debe fichar su entrada y su salida con su propia tarjeta, por imposición legal.
 
-##### R.N.13. Faltas injustificadas
+##### R.N.12. Faltas injustificadas
 
 La ausencia sin causa justificada, o la salida anticipada sin motivo justificado, se anota como falta en el estadillo.
 
-##### R.N.14. Festivos especiales
+##### R.N.13. Festivos especiales
 
-Todos los festivos trabajados se pagan aparte, pero Viernes Santo, 1 de enero y Reyes son especiales y el estadillo indica el tipo de cada uno.
+Viernes Santo, uno de enero y Reyes son festivos especiales, y se pagan aparte.
 
-##### R.N.15. Códigos del estadillo
+##### R.N.14. Códigos del estadillo
 
 Los códigos del estadillo son: E (enfermedad), D (descanso), X (trabajado), L (lactancia), A (accidente), EX (excedencia), M (maternidad), V (vacaciones), F (falta) y P (permiso).
 
