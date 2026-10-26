@@ -13,6 +13,8 @@
  Nuestro cliente es un encargado, que trabaja en el hospital Virgen del Rocío, cubriendo el turno de noche.<br>
  Partimos de una solución pobre y falta de funcionalidad ya implementada. Nuestro objetivo es proporcionar un sistema eficiente, escalable y mantenible en el tiempo, que pueda facilitar el registro de información, y la planificación, tanto a corto, como a largo plazo. 
 
+ [Charla con el cliente](Anexo/Transcripción.md)
+
 ## 2. Glosario de términos
 
 | **Término** | **Definición** | **Imagen** |
