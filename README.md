@@ -339,6 +339,7 @@ Por ley, las licencias duran 5 días por la intervención de un familiar de prim
 ##### R.N.06. Rotación de las vacaciones
 
 Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar.
+Las nuevas incorporaciones, por defecto, comenzarán con sus vacaciones en julio.
 
 ##### R.N.07. Solicitudes por aplicación
 
