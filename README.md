@@ -119,13 +119,12 @@ Como responsable de planificación, quiero listar los puestos que quedan sin cub
 - Si todo está cubierto, el listado está vacío.
 - Se debe aplicar la regla de negocio R.N.02.
 
-#### R.F.05. Consultar el calendario mensual
+#### R.F.05. Consultar día concreto
 
-Como responsable de planificación, quiero consultar el mes completo, con la situación de cada día, y los festivos para ver la planificación mensual de la plantilla.
+Como responsable de planificación, quiero poder consultar cualquier día, para ver la planificación de la plantilla.
 
 ##### *Prueba de aceptación*
 
-- Se muestran todos los días del mes con la situación de cada trabajador.
 - Los festivos aparecen marcados.
 - Se debe aplicar la regla de negocio R.N.01.
 
@@ -302,17 +301,11 @@ Como encargado del personal, quiero almacenar la tarjeta de cada trabajador, sus
 
 ##### R.I.11. Hora de compensación
 
-Como encargado del personal, quiero almacenar las horas de compensación que genera cada trabajador, el día en que las disfruta y el día por al que pertenecen, para saber cuántas puede utilizar para salir antes.
+Como encargado del personal, quiero almacenar las horas de compensación que genera cada trabajador en Semana Santa, feria o Navidad, que no necesariamnete deben ser disfrutadas durante el periodo en el que se generan.
 
 ##### *Prueba de aceptación*
 
-- Se genera una hora por día trabajado en Semana Santa, feria o Navidad.
 - No se pueden disfrutar más horas de las generadas.
-
-##### *Prueba de aceptación*
-
-- Un trabajador solo tiene una talla por tipo de prenda.
-- Los sustitutos también tienen sus tallas registradas.
 
 #### 4.1.2. Reglas de negocio
 
