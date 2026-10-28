@@ -1,177 +1,78 @@
+# Transcripción de la Reunión con el Cliente
 
-# Transcipción de la Reunión con el Cliente
+**Analista de requisitos (Jaime):** Buenas tardes. ¿Podría explicarme a grandes rasgos como trabaja usted actualmente? 
 
-**Analista de requisitos (Jaime)**: Buenas tardes. ¿Podría explicarme a grandes rasgos cómo trabaja usted actualmente?
+**Cliente:** Buenas tardes, verás, así a gran escala lo que yo hago con la aplicación es controlar los trabajadores que acuden al trabajo, los trabajadores sobre los que tengo disponibilidad y los que ejercen el trabajo cada día, excluyendo los que tienen permisos, o los que tienen licencias, es decir, aquellos que por causa justificada no vienen a trabajar (motivos familiares, citas médicas, etcétera). También hay compañeros que están de baja, en sus respectivas vacaciones. Todo eso lo he de llegar a ver a través de la pantalla. 
 
+**Jaime:** Y eso, ¿con qué fin lo quieres almacenar? 
 
+**Cliente:** Porque depende de los trabajadores, hay que cuadrar para que haya siempre… Hay un número de sitios que hay que tener cubiertos, y en la pantalla he de ver las personas que tengo cada día. Todo va anotado en la misma plantilla. 
 
-
-**Cliente**: Más o menos lo que yo hago con la aplicación es controlar los trabajadores que vienen cada día, y los trabajadores que tengo, y los que trabajan cada día, excluyendo los que tienen permisos, los que tienen licencias, que se consideran licencias los que se les ha intervenido un familiar, o por los que por alguna causa justificada no vienen a trabajar. Hay compañeros que tienen permisos o descansos, otros que están de baja, otros que están de vacaciones, otros que están de contrato y han terminado. Todo eso lo veo en una pantalla.
-
-
-
-
-**Jaime**: Y eso, ¿con qué fin lo tienes almacenado?
-
-
-
-
-**Cliente**: Porque depende de los trabajadores, hay que cuadrar para que haya siempre… Hay un número de sitios que hay que tener cubiertos, y en la pantalla veo las personas que tengo cada día. Normalmente cada día, no en cada momento, porque normalmente el que viene a trabajar es difícil que salga antes. Hay personas que salen antes por algún motivo: de conciliación familiar, o porque el contrato así lo requiere. Todo va anotado en la misma plantilla.
+**Jaime:** Entonces, tú tienes una plantilla con todos tus trabajadores, y vas poniendo en un calendario donde van cada día, sus puestos de trabajo, si han ido a trabajar o no, la hora a la que han salido de trabajar, ¿no? ¿Qué más datos deseas tener de un empleado, en su día a día? 
 
 ![Puestos de trabajo de cada empleado por mes](../Imágenes/Zonas%20de%20trabajo%20por%20mes.jpg)
 
+**Cliente:** Del día a día creo que con eso es todo. 
 
-**Jaime**: Entonces, tú tienes una plantilla con todos tus trabajadores, y vas poniendo en un calendario dónde van cada día, sus puestos de trabajo, si han ido a trabajar o no, la hora a la que han salido de trabajar, ¿no? ¿Qué más datos puedes tener tú de un empleado, del día a día?
+**Jaime:** Vale, ¿y puede decirme las distintas áreas que han de ocupar los trabajadores en sus respectivos puestos de trabajo? 
 
+**Cliente:** Claro. Hay que cubrir diversas zonas del hospital para que funcione dignamente. Por ejemplo, en cocina necesitamos dos personas para limpiar la cocina entera por la noche. En el área maternal debemos disponer de otros dos compañeros. En el sector infantil precisamos de un trabajador y en ocasiones hay que recurrir a algún compañero de refuerzo. En traumatología también dos personas. En una visión general, son cuatro sectores o áreas a cubrir por los trabajadores, ¿vale? Y en cuanto a lo del refuerzo, normalmente tenemos a una persona de ayuda o apoyo que realiza algunas tareas complementarias cuando no es necesario cubrir ningún puesto de trabajo, y si por contra hiciese falta se encarga de ocupar dicho puesto. 
 
+**Jaime:** Perfecto. ¿Esos son todos los puestos que desearía completar? 
 
+**Cliente:** Esos son todos los puestos que hay que cubrir en la noche, independientemente de que surja un evento extraordinario ya que el hospital no se puede quedar sin personal de noche. Un acontecimiento inesperado o extraordinario podría llegar a ser una riada en un centro hospitalario. Pero han de taparse los huecos de forma indiferente ante cualquier incidencia como digo. 
 
-**Cliente**: Del día a día creo que esto.
+**Jaime:** Vale, genial. Y ahora, ¿puedo preguntarte por todos los tipos de ausencia que puede tener un trabajador? Antes mencionaste el tema de los días de permiso y tal. Entonces bien, ¿Por qué motivo podría llegar a falta un trabajador? 
 
+**Cliente:** Un trabajador puede llegar a faltar, en primer lugar, por disponer de un permiso como decía. Nosotros, vamos acumulando permisos, debido a que tenemos un turno rotatorio. Por ese turno rotatorio, los 14 días festivos del año no podemos seleccionarlos cuando queramos, porque el hospital ha de ser cubierto todos los días. También puedes ausentarte por licencia, vacaciones, baja, descanso
 
+**Jaime:** Vale. Estoy viendo que dispones de más funcionalidades en tu hoja de trabajo. ¿Puedes explicarlas? 
 
+**Cliente:** Sí, bueno, independientemente de esta página en la que veo el día a día y el mes, también disponemos de otra página en la que enlazo cada nombre con su ficha. 
 
-**Jaime**: Vale.
+**Jaime:** ¿Y qué es esa ficha? Cuéntame. 
 
-
-
-
-**Cliente**: Aquí dependiendo de los diferentes días, los voy marcando con diferentes colores. Esta línea rosa significa que es festivo. El día de permiso lo pongo en verde, lo mismo que la licencia, porque en verde significa que no viene a trabajar por algún motivo. Si está de vacaciones lo pongo en amarillo, si está de baja lo pongo en beige.
-
-
-
-
-**Jaime**: ¿Y puede decirme los diferentes sitios que pueden tener los trabajadores para sus puestos de trabajo?
-
-
-
-
-**Cliente**: Claro. Hay que cubrir zonas del hospital para que funcione dignamente. Por ejemplo en cocina necesitamos dos personas, para limpiar la cocina entera por la noche. En maternal necesitamos otras dos personas. En infantil una persona, y algunas veces hay que mandarles un refuerzo. En traumatología necesitamos dos personas. En general cuatro, ¿vale? Y normalmente tenemos a una de ayuda o apoyo, que realiza algunas tareas cuando no hace falta cubrir algún puesto de trabajo; y si hace falta ayuda en algún puesto, pues esta persona es la que lo realiza.
-
-
-
-
-**Jaime**: Perfecto. ¿Esos son todos los puestos que tienes que cubrir?
-
-
-
-
-**Cliente**: Esos son todos los puestos que hay que cubrir en la noche. Independientemente de que salga una cosa extraordinaria, porque hay que cubrir todo el hospital de noche. Una cosa extraordinaria puede ser una riada en un centro que no esté abierto por la noche. Pero hay que cubrirla también. O una incidencia en cualquier otro punto pues hay que cubrirla.
-
-
-
-
-**Jaime**: Vale, perfecto. Y ahora, ¿puedo preguntarte todos los tipos de ausencia que puede tener un trabajador? Me has hablado antes de permisos y de si tiene días. ¿Por qué puede faltarte un trabajador?
-
-
-
-
-**Cliente**: Un trabajador puede faltar porque tenga un permiso. Nosotros en la noche vamos acumulando permisos, porque tenemos un turno rotatorio. Por ese turno rotatorio, los 14 días festivos del año no podemos cogerlos cuando queramos, porque el hospital hay que cubrirlo todos los días. Esos días festivos los tenemos a disposición nuestra para cogerlos cuando queremos. Entonces, puedes faltar por permiso, por licencia. Una licencia puede ser una intervención de un familiar, o que por conciliación familiar necesita el día por algún motivo. Por vacaciones. Por baja, ya sea baja laboral o accidente de trabajo. Y por finalización de contrato.
-
-
-
-
-**Jaime**: Vale. Estoy viendo que tienes más funcionalidades en tu hoja de trabajo. ¿Puedes explicarlas?
-
-
-
-
-**Cliente**: Sí, bueno, independientemente de esta página que visualmente veo el día a día y el mes, también tenemos por ejemplo, otra página en la que enlazo cada nombre con su ficha.
-
-
-
-
-**Jaime**: ¿Y qué es esa ficha? Cuéntame.
-
-
-
-
-**Cliente**: En esa ficha tenemos puesto el nombre de la persona. Es por así decirlo una ficha personal de cada persona. Y en esa ficha se indica todos los días que tiene que coger el trabajador durante el año.
+**Cliente:** En esa ficha tenemos puesto el nombre de la persona. Es, por así decirlo, una ficha personal asociada a cada trabajador. Y en esa ficha se indican los permisos que coge o ha de coger cada persona a lo largo del año. 
 
 ![Días festivos que el trabajador debe descansar en el año](../Imágenes/Días%20festivos%20por%20empleado.jpg)
 
+**Jaime:** ¿Por qué el trabajador, tiene que escoger una serie de días obligatoriamente como mínimo? 
 
-**Jaime**: ¿Por qué el trabajador tiene que coger una serie de días obligatoriamente, como mínimo?
+**Cliente:** Sí. Nosotros tenemos que seleccionar, como he dicho antes, los días festivos. Tenemos aparte un día en feria, un día en navidad, y otro día en semana santa. Disponemos también de días de libre disposición, y un domingo a elegir durante el año. ¿Vale? Pues todos esos días están puestos en un cuadrante, junto con el día que se disfruta, y el día que se solicita. Si una persona solicita descansar el nueve de febrero, yo anoto en una lista que desea pedir el día de descanso, y si finalmente coge ese día, vuelvo a anotar en la lista pero esta vez el día en el que lo disfruta. 
 
+**Jaime:** Porque se ha de distinguir entre el día de la solicitud y el día en el que puede disfrutar del permiso ¿no? 
 
+**Cliente:** En efecto. El trabajador me solicita un día. Todavía no sé si se lo podré dar, porque desconozco la necesidad de trabajadores que voy a tener. Una vez que ya lo ha cogido, se lo marco como disfrutado y en su misma ficha tengo los días que le faltan por solicitar. 
 
+**Jaime:** ¿Cuántos días puede llegar a tener una persona a lo largo del año? 
 
-**Cliente**: Sí. Nosotros tenemos que coger, como he dicho antes, los días festivos. Tenemos aparte un día en Feria, un día en Navidad, y otro día en Semana Santa. Tenemos también días de libre disposición, y un domingo a elegir durante el año. ¿Vale? Pues todos esos días están puestos en un cuadrante, junto con el día que lo disfruta, y el día que lo solicita. Una persona solicita descansar el nueve de febrero, yo lo anoto en una lista, y, si coge ese día, yo apunto el día que lo disfruta.
+**Cliente:** De licencia, no existe límite. Cada vez que se de una intervención de un familiar, por ejemplo, son cinco días por ley. Sin embargo, si es un familiar de segundo grado son tres. Y por ciertos motivos propios (intervención propia, examen, etcétera) también tiene un día. En definitiva, esto va según la ley. 
 
+**Jaime:** ¿Qué más proporciona tu programa? ¿Qué más hace? 
 
+**Cliente:** Vale. Más allá de la ficha, y del puesto de trabajo, también tengo un listado de los trabajadores. En este veo los datos que tenía en las otras fichas, pero agrupados en la misma página. Los días que le quedan por pedir,los días que le quedan hasta la fecha. 
 
+Poseemos una relación de vacaciones. Seguimos un sistema rotativo de vacaciones. Un trabajador coge las vacaciones en julio, al año siguiente las coge en agosto, y al año siguiente las coge en septiembre, y vuelta a empezar. Si quiere cambiarlas, solicita un cambio de vacaciones, que una vez se apruebe, se anota en un cuadrante, para indicar las personas que se van de vacaciones y el número de personas que necesito sustituir. 
 
-**Jaime**: Porque hay que distinguir el día que solicita, del día del festivo en cuestión, que no tiene que ser el mismo, y el día que lo puede disfrutar, ¿no?
+**Jaime:** ¿Con sustituir te refieres a contratar gente nueva? 
 
+**Cliente:** Claro, hay que meter gente con contrato para cubrir los huecos de las personas que se van de vacaciones. 
 
+**Jaime:** ¿Qué tienen que hacer los trabajadores para solicitar un cambio de vacaciones? 
 
+**Cliente:** Únicamente presentar una solicitud por escrito. También tendrían que solicitar por escrito los días que quieren descansar. Cada trabajador dispone de una tarjeta para picar, que es obligatoria por ley, en la que se registra su entrada y salida. 
 
-**Cliente**: Claro. El trabajador me solicita un día. Todavía no sé si se lo podré dar, porque no sé la necesidad de trabajadores que voy a tener. Una vez que ya lo ha cogido, se lo marco como disfrutado. En la misma ficha tengo los días que faltan por solicitar.
+**Jaime:** Háblame más sobre la tarjeta. 
 
+**Cliente:** La tarjeta es identificativa para cada trabajador, y digital. Cuando se entra cada trabajador ha de picar en un “pica digital”, donde se registra la hora a la que entra, la hora a la que sale, y el cúmulo de horas que posee cada trabajador. Esto ha sido impuesto por el gobierno para evitar que se trabajé más o por contrario que se trabajé menos. 
 
-
-
-**Jaime**: ¿Cuántos días puede tener una persona a lo largo del año?
-
-
-
-
-**Cliente**: De licencia, no tiene límite. Cada vez que tenga la intervención de un familiar, son cinco días por ley. Si es un familiar de segundo grado son tres. Y por una intervención propia o para un examen, por ejemplo, también tiene un día. También por boda. Esto va según la ley.
-
-
-
-
-**Jaime**: ¿Qué más proporciona tu programa? ¿Qué más hace?
-
-
-
-
-**Cliente**: Vale. Independientemente de la ficha, y del puesto de trabajo, tengo un listado de los trabajadores. En este veo los datos que tenía en las otras fichas pero agrupado en la misma página. Los días que le quedan por pedir. Los días que le quedan hasta final de año. Los días que le quedan hasta la fecha. Hasta la fecha, por ejemplo, significa que si el último festivo ha sido el quince de agosto, el trabajador podrá disfrutar de los festivos hasta esa fecha. No podría darle un día por el doce de octubre, porque todavía no ha llegado.
-Luego tenemos una relación de horas. Los trabajadores tienen derecho a salir durante los días de Semana Santa, de Feria, y de Navidad una hora antes del trabajo. Yo les doy la posibilidad de que la puedan coger durante todo el año, cuando les haga falta. Los días que han salido una hora antes por necesidad o porque ha querido, lo apunto, junto con el día al que pertenece. Por ejemplo, si en Semana Santa le tocó trabajar dos días, le corresponden dos horas.
-También tenemos una relación de vacaciones. Seguimos un sistema rotativo de vacaciones. Un trabajador coge las vacaciones en julio, al año siguiente las coge en agosto, y al año siguiente las coge en septiembre, y vuelta a empezar. Si quiere cambiarlas, solicita un cambio de vacaciones, que una vez que se aprueba, se anota en un cuadrante, para indicarme las personas que se van de vacaciones y el número de personas que necesito sustituir.
-
-
-
-
-**Jaime**: ¿Con sustituir te refieres a meter gente nueva?
-
-
-
-
-**Cliente**: Claro, hay que meter gente con contrato para cubrir los huecos de las personas que se van de vacaciones.
-
-
-
-
-**Jaime**: ¿Qué te tienen que pedir las personas para solicitarte un cambio de vacaciones?
-
-
-
-
-**Cliente**: Solamente tienen que solicitarlo por escrito. También tendrían que solicitar por escrito los días que quieren descansar.
-Cada trabajador tiene una tarjeta para picar, que es obligatorio por ley, en la que se registra la entrada y la salida de cada trabajador.
-
-
-
-
-**Jaime**: Cuéntame más sobre la tarjeta.
-
-
-
-
-**Cliente**: La tarjeta es identificativa de cada trabajador, digital. Cuando entra cada trabajador tiene que picar en un pica digital, donde se registra las horas de entrada, las horas de salida, y se registra el cúmulo de horas que tiene cada trabajador. Esto lo ha puesto obligatorio el gobierno para evitar que, por ejemplo, una persona que tenga quince horas a la semana, eche más horas de la cuenta.
-También tengo una relación con los uniformes de cada trabajador, los tipos de ropa que hay: casaca, pantalón, polito, chaleco, camisa… A cada trabajador le tengo anotadas las tallas, para que, cuando vayamos a solicitar los uniformes, me salga cuántos tengo que pedir de cada tipo. Independientemente, siempre hay que tener una previsión, porque las personas que entran para sustituir también tienen que tener su ropa.
-
+También tengo una relación con los uniformes de cada trabajador, los tipos de ropa que hay: casaca, pantalón, polito, chaleco, camisa… A cada trabajador le tengo anotadas las tallas, para que, cuando se vayan a solicitar los uniformes, me aparezca cuantos he de pedir de cada tipo. Independientemente, siempre hay que tener una previsión, porque las personas que entran para sustituir han de tener también su propia ropa. 
 
 ![Conjunto de ropa y talla de cada trabajador](../Imágenes/Tallas.jpg)
 
-
-También hay otro documento, el estadillo, que es el documento oficial, que va a la oficina, donde se indica, para cada trabajador, qué situación ha tenido. Si ha estado de enfermedad se indica con una E, si ha estado de descanso con una D, si ha trabajado se indica con una X de color negro, si ha estado de lactancia L, A para los accidentes, EX de excedencia, M de maternidad, V de vacaciones, F de faltas y P de permiso. Este es el documento oficial que va a la empresa. Las noches que ha trabajado, los festivos que ha trabajado, el tipo de los festivos. Porque todos los festivos se pagan aparte, pero hay algunos que son especiales, como el Viernes Santo, el día uno de enero, y el día seis de enero. También anotamos si ha faltado sin causa justificada, o si se ha ido antes sin causa justificada.
-Creo que con todo esto es más que suficiente para lo que estoy buscando.
+También existe otro documento denominado estadillo, que es el documento oficial que va a la oficina, donde se indica, para cada trabajador, que situación ha tenido. Si ha estado de permiso se marcará con una P, si ha estado de descanso con una D, si ha trabajado se indica con una T , si ha estado de licencia L, B de baja, V de vacaciones, F de faltas. Este es el documento oficial que va a la empresa. Las noches que ha trabajado y los festivos que ha trabajado.
 
 ![Estadillo](../Imágenes/Estadillo.jpg)
+ También anotamos si ha faltado sin causa justificada, o si se ha ido antes sin motivo justificado. Creo que con todo esto es más que suficiente para lo que estoy buscando.  
 
-
-
-
-**Jaime**: Perfecto entonces. Te mantendremos informado del avance del proyecto.
+**Jaime:** Perfecto entonces. Te mantendremos informado del avance del proyecto.
