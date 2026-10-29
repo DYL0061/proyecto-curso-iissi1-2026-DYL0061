@@ -293,28 +293,27 @@ Como encargado del personal, quiero almacenar la tarjeta de cada trabajador, sus
 
 ##### R.N.01. Una única situación por trabajador y día 
 
-Un trabajador solo puede tener una situación laboral en una fecha concreta.
+Un trabajador solo puede tener una situación laboral en una fecha concreta, aunque muchas a lo largo de su vida.
 
 ##### R.N.02. Cobertura nocturna mínima
 
-Cada noche deben estar cubiertos todos las áreas: 2 trabajadores en cocina, 2 en maternal, 1 en infantil y 2 en traumatología, más una persona de refuerzo que ocupa el puesto que quede vacío.
+Cada noche deben estar cubiertas todas las áreas: 2 trabajadores en cocina, 2 en maternal, 1 en infantil y 2 en traumatología, más una persona de refuerzo que ocupa el puesto que quede vacío.
 
-##### R.N.03. Solicitud previa de festivos
+##### R.N.03. Solicitud previa de permisos
 
-Para poder disfrutar un festivo, primero hay que solicitarlo.
+Para poder disfrutar un permiso, primero hay que solicitarlo.
 
 ##### R.N.04. Permisos anuales
 
-Cada año, cada trabajador debe disfrutar los 14 permisos, pudiendo seleccionar días de festivo, días de libre disposición y un domingo a elegir.
+Cada trabajador dispone de 14 permisos anuales a disfrutar, y a cambio, ha de trabajar 14 festivos.
 
 ##### R.N.05. Duración de las licencias
 
-Por ley, las licencias duran 5 días por la intervención de un familiar de primer grado, 3 si es de segundo grado y 1 por motivos propios (intervención, examen, etc.). No hay límite anual.
+Por ley, las licencias duran 5 dias(primer grado), 3 dias(segundo grado) o 1 dia(motivos propios).No hay límite anual
 
 ##### R.N.06. Rotación de las vacaciones
 
-Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar.
-Las nuevas incorporaciones, por defecto, comenzarán con sus vacaciones en julio.
+Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar. Las nuevas incorporaciones, por defecto, comenzarán con sus vacaciones en julio.
 
 ##### R.N.07. Solicitudes por aplicación
 
@@ -326,7 +325,7 @@ Un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
 
 ##### R.N.9. Sustitución de vacaciones
 
-Los huecos de quienes están de vacaciones se cubren con sustitutos contratados.
+Los huecos de los trabajadores que están de vacaciones se cubren con sustitutos contratados.
 
 ##### R.N.10. Fichaje obligatorio
 
@@ -334,7 +333,7 @@ Todo trabajador debe fichar su entrada y salida con su propia tarjeta, por impos
 
 ##### R.N.11. Faltas injustificadas
 
-La ausencia sin causa justificada, o la salida anticipada sin motivo justificado, se anota como falta en el estadillo.
+La ausencia o salida anticipada injustificada se anota como falta en el estadillo.
 
 ##### R.N.12. Códigos del estadillo
 

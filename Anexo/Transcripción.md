@@ -24,7 +24,7 @@
 
 **Jaime:** Vale, genial. Y ahora, ¿puedo preguntarte por todos los tipos de ausencia que puede tener un trabajador? Antes mencionaste el tema de los días de permiso y tal. Entonces bien, ¿Por qué motivo podría llegar a falta un trabajador? 
 
-**Cliente:** Un trabajador puede llegar a faltar, en primer lugar, por disponer de un permiso como decía. Nosotros, vamos acumulando permisos, debido a que tenemos un turno rotatorio. Por ese turno rotatorio, los 14 días festivos del año no podemos seleccionarlos cuando queramos, porque el hospital ha de ser cubierto todos los días. También puedes ausentarte por licencia, vacaciones, baja, descanso
+**Cliente:** Un trabajador puede llegar a faltar, en primer lugar, por disponer de un permiso como decía. Nosotros, vamos acumulando permisos, debido a que tenemos un turno rotatorio. Por ese turno rotatorio, los 14 días de permiso del año no podemos seleccionarlos cuando queramos, porque el hospital ha de ser cubierto todos los días. También puedes ausentarte por licencia, vacaciones, baja,o descanso.
 
 **Jaime:** Vale. Estoy viendo que dispones de más funcionalidades en tu hoja de trabajo. ¿Puedes explicarlas? 
 
@@ -38,7 +38,7 @@
 
 **Jaime:** ¿Por qué el trabajador, tiene que escoger una serie de días obligatoriamente como mínimo? 
 
-**Cliente:** Sí. Nosotros tenemos que seleccionar, como he dicho antes, los días festivos. Tenemos aparte un día en feria, un día en navidad, y otro día en semana santa. Disponemos también de días de libre disposición, y un domingo a elegir durante el año. ¿Vale? Pues todos esos días están puestos en un cuadrante, junto con el día que se disfruta, y el día que se solicita. Si una persona solicita descansar el nueve de febrero, yo anoto en una lista que desea pedir el día de descanso, y si finalmente coge ese día, vuelvo a anotar en la lista pero esta vez el día en el que lo disfruta. 
+**Cliente:** Sí. Nosotros tenemos que seleccionar como permiso, como he dicho antes, los días festivos, días de libre disposición, o un domingo a elegir durante el año. ¿Vale? Pues todos esos días están puestos en un cuadrante, junto con el día que se disfruta, y el día que se solicita. Si una persona solicita descansar el nueve de febrero, yo anoto en una lista que desea pedir el día de descanso, y si finalmente coge ese día, vuelvo a anotar en la lista pero esta vez el día en el que lo disfruta. 
 
 **Jaime:** Porque se ha de distinguir entre el día de la solicitud y el día en el que puede disfrutar del permiso ¿no? 
 
