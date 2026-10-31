@@ -143,7 +143,7 @@ Como encargado del personal, quiero listar las solicitudes de descanso y de camb
 
 - Una solicitud pendiente aparece con el trabajador, el tipo y la fecha.
 - Una solicitud aprobada o rechazada no aparece.
-- Se debe aplicar la regla de negocio R.N.07.
+- Se debe aplicar la regla de negocio R.N.07 y R.N.08.
 
 #### R.F.08. Consultar el cuadrante de vacaciones y los sustitutos necesarios
 
@@ -153,7 +153,7 @@ Como responsable de planificación, quiero consultar mes a mes, quién se va de 
 
 - Cada mes muestra los trabajadores de vacaciones y el número de sustitutos.
 - Quien este año tiene julio aparece con agosto el año siguiente, y viceversa.
-- Se deben aplicar las reglas de negocio R.N.06, R.N.07 y R.N.09.
+- Se deben aplicar las reglas de negocio R.N.06, R.N.08 y R.N.09.
 
 #### R.F.09. Consultar los fichajes y las horas de un trabajador
 
@@ -190,6 +190,7 @@ Como encargado del personal, quiero consultar el estadillo de un mes con la situ
 
 - Cada día aparece con su código oficial (V, P, L, T, D, F, B)
 - Se deben aplicar las reglas de negocio R.N.11 y R.N.12.
+- Los códigos del estadillo son valores derivados y no se almacenan como atributos independientes.
 
 #### R.F.13. Consultar los festivos de cada trabajador
 
@@ -227,9 +228,9 @@ Como encargado del personal, quiero almacenar la situación de cada trabajador c
 - No se puede registrar una situación sin trabajador o sin fecha.
 - Un trabajador no puede tener dos situaciones distintas el mismo día.
 
-##### R.I.04. Asignación a un puesto
+##### R.I.04. Asignación de un área
 
-Como encargado del personal, quiero almacenar en qué puesto trabaja cada trabajador cada día, con su hora de salida.
+Como encargado del personal, quiero almacenar en qué área trabaja cada trabajador cada día, con su hora de salida.
 
 ##### *Prueba de aceptación*
 
@@ -347,7 +348,7 @@ Las historias de usuario se organizan según las principales actividades del sis
 |---|---|---|
 | **Planificar la plantilla** | Como encargado de personal, quiero consultar la situación diaria de los trabajadores para conocer quién trabaja, quién descansa y quién está ausente. | RF.01, RI.01, RI.03 |
 | **Planificar la plantilla** | Como responsable de planificación, quiero consultar los trabajadores disponibles, los puestos sin cubrir y la planificación de un día concreto para organizar correctamente los turnos. | RF.02, RF.04, RF.05, RI.02, RI.05 |
-| **Planificar la plantilla** | Como responsable de calidad, quiero consultar la asignación de trabajadores por área y turno para comprobar que el personal está correctamente distribuido. | RF.03 |
+| **Planificar la plantilla** | Como responsable de calidad, quiero consultar la asignación de trabajadores por área y turno para comprobar que el personal está correctamente distribuido. | RF.03, RI.04 |
 | **Gestionar permisos y licencias** | Como encargado de personal, quiero consultar las fichas de los trabajadores y las solicitudes pendientes para gestionar los permisos y descansos solicitados. | RF.06, RF.07, RI.09 |
 | **Gestionar permisos y licencias** | Como responsable de planificación, quiero gestionar la información de los permisos anuales y las licencias de los trabajadores. | RI.06, RI.07 |
 | **Gestionar vacaciones** | Como responsable de planificación, quiero consultar el cuadrante de vacaciones y las necesidades de sustitución para garantizar la cobertura de los puestos de trabajo. | RF.08, RI.08 |
@@ -377,30 +378,102 @@ El sistema debe estar organizado de forma óptima para facilitar la corrección 
 ![Diagrama de clases](/Imágenes/Modelado%20Conceptual.png)
 
 ### 5.2. Escenarios de prueba
+**Escenario 1. Asignación de trabajadores a áreas y control de horas.**
 
 ![Diagrama de objetos. Área](/Imágenes/Diagrama%20Área.png)
 
+Descripción textual:
+
+Se desea comprobar el funcionamiento de la asignación de trabajadores a las diferentes áreas del centro y el registro de sus jornadas laborales mediante tarjetas identificativas.
+
+Para ello, se dispone de un área denominada «Maternal», en la que trabajan tres empleados: Manuel López López, Daniel Márquez Gómez y Celia Pineda Gázquez. Los tres trabajadores tienen diferentes tipos de contrato: fijo, refuerzo y sustituto, respectivamente.
+
+Cada trabajador dispone de una tarjeta personal mediante la cual registra su entrada y salida del centro. Se simulan diferentes registros horarios correspondientes a los días 3 y 4 de abril de 2026.
+
+El objetivo de este escenario es comprobar que los trabajadores están asociados a su área correspondiente, que cada uno dispone de su propia tarjeta y que quedan registradas correctamente las fechas y horas de entrada y salida.
+
+Además, se comprueba que la información relativa a los permisos disfrutados y pendientes de cada trabajador se almacena correctamente.
+
+
+**Escenario 2. Gestión de solicitudes y situaciones laborales de trabajadores**
 
 ![Diagrama de objetos. Situación](/Imágenes/Diagrama%20Situación.png)
+
+Descripción textual:
+
+Se desea comprobar la gestión de las solicitudes realizadas por los trabajadores y su relación con las diferentes situaciones laborales contempladas en el sistema.
+
+Para ello, se considera al trabajador José Antonio Morante Pérez, quien tiene asignadas distintas situaciones laborales a lo largo de su relación con el centro.
+
+En primer lugar, realiza una solicitud de permiso por motivos personales, indicando como motivo la asistencia al cumpleaños de su hijo. La solicitud es aceptada y queda registrada la fecha en la que se disfruta el permiso.
+
+Posteriormente, realiza otra solicitud por accidente laboral, que también es aceptada, aunque no dispone de una fecha de disfrute como tal debido a que es un periodo de 10 días que empiezan el
+26 de Octubre de 2026.
+
+Luego, se contemplan otras situaciones laborales del trabajador, como una licencia por intervención quirúrgica de un familiar, con una duración de cinco días, y una situación de trabajo relacionada con un día festivo.
+
+El objetivo es comprobar que las solicitudes quedan asociadas al trabajador correspondiente, que se registra su estado y que las diferentes situaciones laborales se representan mediante sus respectivas especializaciones.
+
+También se pretende comprobar la distinción entre situaciones solicitables y no solicitables, así como la asociación de determinados trabajos con los días festivos.
+
+
+**Escenario 3. Gestión de contratos y uniformes**
 
 
 ![Diagrama de objetos. Uniforme](/Imágenes/Diagrama%20Uniforme.png)
 
-- con descripción textual y diagrama de objetos UML.
+Descripción textual:
+
+Se desea comprobar la gestión de los contratos laborales y la asignación de uniformes a los trabajadores.
+
+Para ello, se considera a la trabajadora Carmen García Trujillo, que tiene un contrato de tipo sustituto con fecha de inicio del 1 de julio de 2026 y fecha de finalización del 31 de julio de 2026.
+
+Además, la trabajadora tiene asignados dos uniformes de talla M: uno de tipo polo y otro de tipo chaleco.
+
+El objetivo de este escenario es comprobar que cada contrato contiene correctamente sus fechas de inicio y finalización, que está asociado a su trabajador correspondiente y que un trabajador puede disponer de varios uniformes.
+
+También se comprueba que cada uniforme almacena su talla y tipo correspondiente.
+
 
 ## 6. Matrices de trazabilidad
 
-- Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
-
-|       | EntidadX   | AsociaciónX  | RestricciónX  | Entidad2 ...   | 
-|:------|:-----------|:-----------|:-----------|:-----------|
-| RI-1  | X          | X          | X          | X          |
-| RI-2  |            | X          |            | X          |
-| RF-1  |            | X          |            | X          |
-| RF-2  | X          |            | X          | X          |
-| RN-1  |            | X          |            |            |
-| RN-2  | X          | X          | X          |            |
-| ...   |            |            |            |            |
+| Requisito | Trabajador | Asociación Trabajador | Restricción Trabajador | Área | Asociación Área | Restricción Área | Contrato | Asociación Contrato | Restricción Contrato | Situación | Asociación Situación | Restricción Situación | Solicitud | Asociación Solicitud | Restricción Solicitud | Tarjeta | Asociación Tarjeta | Restricción Tarjeta | Uniforme | Asociación Uniforme | Restricción Uniforme | Festivo | Asociación Festivo | Restricción Festivo | Vacaciones | Asociación Vacaciones | Restricción Vacaciones | Permiso | Asociación Permiso | Restricción Permiso | Baja | Asociación Baja | Restricción Baja | Trabajo | Asociación Trabajo | Restricción Trabajo | Descanso | Asociación Descanso | Restricción Descanso | Falta | Asociación Falta | Restricción Falta | Licencia | Asociación Licencia | Restricción Licencia |
+|-----------|:----------:|:----------------:|:-----------------:|:----:|:----------:|:-----------:|:---------:|:--------------:|:---------------:|:---------:|:---------------:|:----------------:|:---------:|:---------------:|:----------------:|:-------:|:-------------:|:--------------:|:--------:|:--------------:|:---------------:|:-------:|:-------------:|:--------------:|:-----------:|:----------------:|:-----------------:|:--------:|:--------------:|:---------------:|:----:|:----------:|:-----------:|:-------:|:-------------:|:--------------:|:--------:|:--------------:|:---------------:|:-----:|:-----------:|:------------:|:--------:|:--------------:|:---------------:|
+| RF.01 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| RF.02 | X | X | X | X | X | X | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| RF.03 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RF.04 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RF.05 | X | X | X | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | |
+| RF.06 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | |
+| RF.07 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | |
+| RF.08 | X | X | X | X | X | X | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RF.09 | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
+| RF.10 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | |
+| RF.11 | X | X | X | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | |
+| RF.12 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| RF.13 | X | X | X | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | |
+| RI.01 | X | X | X | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RI.02 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RI.03 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| RI.04 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
+| RI.05 | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | |
+| RI.06 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | |
+| RI.07 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X |
+| RI.08 | X | X | X | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RI.09 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RI.10 | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RN.01 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| RN.02 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RN.03 | X | X | X | | | | | | | X | X | X | X | X | X | | | | | | | | | | X | X | X | X | X | X | X | X | X | | | | | | | | | | | X | X |
+| RN.04 | X | X | X | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | X | X | X | | | | X | X | X | | | | | | | | | |
+| RN.05 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X |
+| RN.06 | X | X | X | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RN.07 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RN.08 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RN.09 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RN.10 | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
+| RN.11 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | |
+| RN.12 | | | | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
 
 
 ## 7. Modelo relacional en 3FN
