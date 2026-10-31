@@ -299,9 +299,9 @@ Un trabajador solo puede tener una situación laboral en una fecha concreta, aun
 
 Cada noche deben estar cubiertas todas las áreas: 2 trabajadores en cocina, 2 en maternal, 1 en infantil y 2 en traumatología, más una persona de refuerzo que ocupa el puesto que quede vacío.
 
-##### R.N.03. Solicitud previa de permisos
+##### R.N.03. Solicitud previa
 
-Para poder disfrutar un permiso, primero hay que solicitarlo.
+Para poder disfrutar un permiso, cambiar la fecha de las vacaciones, o darse de baja, primero hay que solicitarlo.
 
 ##### R.N.04. Permisos anuales
 
@@ -362,15 +362,22 @@ El sistema debe garantizar la confidencialidad de la información de los emplead
 **R.N.F.03 Mantenibilidad**
 El sistema debe estar organizado de forma óptima para facilitar la corrección de errores, el mantenimiento y la incorporación de nuevas funcionalidades en el futuro.
 
--- fin entregable 1 --
 
 ## 5. Modelo conceptual
 
 ### 5.1. Diagramas de clases UML
 
-- con restricciones.
+![Diagrama de clases](/Imágenes/Modelado%20Conceptual.png)
 
 ### 5.2. Escenarios de prueba
+
+![Diagrama de objetos. Área](/Imágenes/Diagrama%20Área.png)
+
+
+![Diagrama de objetos. Situación](/Imágenes/Diagrama%20Situación.png)
+
+
+![Diagrama de objetos. Uniforme](/Imágenes/Diagrama%20Uniforme.png)
 
 - con descripción textual y diagrama de objetos UML.
 
