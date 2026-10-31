@@ -341,15 +341,22 @@ Los códigos del estadillo son: V(vacaciones), P(permiso), L(licencia), T(trabaj
 
 ### 4.2. Mapa de historias de usuario
 
-Todas las historias son del único usuario del sistema: el **responsable de planificación**.
+Las historias de usuario se organizan según las principales actividades del sistema y las responsabilidades de cada encargado.
 
-| Actividad | Historias de usuario | Requisitos |
-| --- | --- | --- |
-| Planificar la plantilla | Ver quién trabaja, quién está disponible y qué puestos quedan sin cubrir | R.F.01 a R.F.05, R.I.01 a R.I.04 |
-| Gestionar permisos y licencias | Ver permisos pendientes y resolver solicitudes | R.F.06, R.F.07, R.I.05 a R.I.07, R.I.09 |
-| Gestionar vacaciones | Ver el cuadrante y los sustitutos necesarios | R.F.08, R.I.08 |
-| Controlar horas y asistencia | Ver fichajes, compensaciones y faltas | R.F.09, R.F.10, R.I.10, R.I.11 |
-| Gestionar uniformes y estadillo | Pedir uniformes y preparar el estadillo | R.F.11, R.F.12, R.I.12 |
+| Actividad | Historia de usuario | Requisitos asociados |
+|---|---|---|
+| **Planificar la plantilla** | Como encargado de personal, quiero consultar la situación diaria de los trabajadores para conocer quién trabaja, quién descansa y quién está ausente. | RF.01, RI.01, RI.03 |
+| **Planificar la plantilla** | Como responsable de planificación, quiero consultar los trabajadores disponibles, los puestos sin cubrir y la planificación de un día concreto para organizar correctamente los turnos. | RF.02, RF.04, RF.05, RI.02, RI.05 |
+| **Planificar la plantilla** | Como responsable de calidad, quiero consultar la asignación de trabajadores por área y turno para comprobar que el personal está correctamente distribuido. | RF.03 |
+| **Gestionar permisos y licencias** | Como encargado de personal, quiero consultar las fichas de los trabajadores y las solicitudes pendientes para gestionar los permisos y descansos solicitados. | RF.06, RF.07, RI.09 |
+| **Gestionar permisos y licencias** | Como responsable de planificación, quiero gestionar la información de los permisos anuales y las licencias de los trabajadores. | RI.06, RI.07 |
+| **Gestionar vacaciones** | Como responsable de planificación, quiero consultar el cuadrante de vacaciones y las necesidades de sustitución para garantizar la cobertura de los puestos de trabajo. | RF.08, RI.08 |
+| **Controlar horas y asistencia** | Como responsable de calidad, quiero consultar los fichajes y las horas acumuladas de los trabajadores para comprobar el cumplimiento de la jornada laboral. | RF.09 |
+| **Controlar horas y asistencia** | Como encargado de personal, quiero consultar las faltas injustificadas y los festivos trabajados por cada empleado para mantener actualizado el control de asistencia. | RF.10, RF.13, RI.10 |
+| **Gestionar uniformes y estadillo** | Como encargado de material, quiero consultar los uniformes necesarios por tipo de prenda y talla para realizar correctamente los pedidos. | RF.11 |
+| **Gestionar uniformes y estadillo** | Como encargado de personal, quiero consultar el estadillo mensual con la situación laboral de cada trabajador para preparar el documento que se envía a la oficina. | RF.12 |
+
+
 
 ### 4.3. Requisitos no funcionales 
 
@@ -395,7 +402,6 @@ El sistema debe estar organizado de forma óptima para facilitar la corrección 
 | RN-2  | X          | X          | X          |            |
 | ...   |            |            |            |            |
 
--- fin entregable 2 --
 
 ## 7. Modelo relacional en 3FN
 
