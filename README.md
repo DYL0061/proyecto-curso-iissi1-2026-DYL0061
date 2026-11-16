@@ -204,20 +204,21 @@ Como encargado del personal, quiero consultar los festivos en los que ha ejercid
 
 ##### R.I.01. Trabajador y contrato
 
-Como encargado del personal, quiero almacenar el nombre, apellidos, DNI, tallas, y tipo (fijo, temporal, sustituto o refuerzo) de cada trabajador, con su contrato (fecha de inicio y de fin) para saber con quién cuento y hasta cuándo.
+Como encargado del personal, quiero almacenar el nombre, apellidos, DNI, tallas, y tipo (fijo, temporal, sustituto o refuerzo) de cada trabajador, con sus contratos (fecha de inicio y de fin) para saber con quién cuento y hasta cuándo.
 
 ##### *Prueba de aceptación*
 
 - No se puede registrar un trabajador sin DNI ni dos con el mismo DNI.
 - No se acepta un contrato con fecha de fin anterior a la de inicio.
+- Un trabajador puede tener varios contratos a lo largo del tiempo, y cada contrato pertenece a un único trabajador.
 
 ##### R.I.02. Área de trabajo
 
-Como responsable de planificación, quiero almacenar las áreas (cocina, maternal, infantil y traumatología), y la persona de refuerzo para saber cuántos trabajadores necesito cada noche.
+Como responsable de planificación, quiero almacenar las áreas (cocina, maternal, infantil y traumatología) con el número de trabajadores necesarios cada noche, y la persona de refuerzo para saber cuántos trabajadores necesito.
 
 ##### *Prueba de aceptación*
 
-- Cocina tiene 2 puestos, maternal 2, infantil 1 y traumatología 2.
+- Cocina necesita 2 trabajadores, maternal 2, infantil 1 y traumatología 2.
 
 ##### R.I.03. Situación laboral diaria
 
@@ -230,11 +231,12 @@ Como encargado del personal, quiero almacenar la situación de cada trabajador c
 
 ##### R.I.04. Asignación de un área
 
-Como encargado del personal, quiero almacenar en qué área trabaja cada trabajador cada día, con su hora de salida.
+Como encargado del personal, quiero almacenar en qué área ejerce su trabajo cada trabajador cada día que trabaja, con su hora de entrada y de salida.
 
 ##### *Prueba de aceptación*
 
 - Un trabajador no puede ser asignado a dos puestos la misma noche.
+- El área se asocia al día trabajado del trabajador (situación de trabajo), no directamente al trabajador.
 
 ##### R.I.05. Día festivo
 
@@ -243,6 +245,8 @@ Como responsable de planificación, quiero almacenar los festivos del año para 
 ##### *Prueba de aceptación*
 
 - No pueden existir dos festivos en la misma fecha.
+- Un festivo puede generar permisos a varios trabajadores, pero cada permiso se genera por un único festivo.
+- Un día trabajado puede coincidir con un festivo (festivo trabajado), y un festivo puede ser trabajado por varios trabajadores.
 
 ##### R.I.06. Ficha y permisos
 
@@ -261,6 +265,7 @@ Como responsable de planificación, quiero almacenar las licencias con su grado(
 
 - No se acepta una licencia sin grado.
 - Un trabajador puede tener varias licencias en el mismo año.
+- Una baja o una licencia sin duración indicada dura un día (R.N.13).
 
 ##### R.I.08. Vacaciones 
 
@@ -320,11 +325,11 @@ Las vacaciones rotan cada año: julio, agosto, septiembre y vuelta a empezar. La
 
 Los días de descanso y los cambios de vacaciones se solicitan por la aplicación. 
 
-##### R.N.8. Cambios en las vacaciones
+##### R.N.08. Cambios en las vacaciones
 
 Un cambio de vacaciones solo se anota en el cuadrante si se aprueba.
 
-##### R.N.9. Sustitución de vacaciones
+##### R.N.09. Sustitución de vacaciones
 
 Los huecos de los trabajadores que están de vacaciones se cubren con sustitutos contratados.
 
@@ -339,6 +344,10 @@ La ausencia o salida anticipada injustificada se anota como falta en el estadill
 ##### R.N.12. Códigos del estadillo
 
 Los códigos del estadillo son: V(vacaciones), P(permiso), L(licencia), T(trabajo), D(descanso), F(falta), B(baja).
+
+##### R.N.13. Duración por defecto
+
+Si no se indica la duración de una baja o de una licencia, se entiende que corresponde a un día.
 
 ### 4.2. Mapa de historias de usuario
 
@@ -384,13 +393,13 @@ El sistema debe estar organizado de forma óptima para facilitar la corrección 
 
 Descripción textual:
 
-Se desea comprobar el funcionamiento de la asignación de trabajadores a las diferentes áreas del centro y el registro de sus jornadas laborales mediante tarjetas identificativas.
+Se desea comprobar el funcionamiento de la asignación de los días trabajados a las diferentes áreas del centro y el registro de las jornadas laborales mediante tarjetas identificativas.
 
-Para ello, se dispone de un área denominada «Maternal», en la que trabajan tres empleados: Manuel López López, Daniel Márquez Gómez y Celia Pineda Gázquez. Los tres trabajadores tienen diferentes tipos de contrato: fijo, refuerzo y sustituto, respectivamente.
+Para ello, se dispone de un área denominada «Maternal», que necesita 2 trabajadores cada noche (n_trabajadores_necesarios). La noche del 3 al 4 de abril de 2026 ejercen su trabajo en ella tres empleados: Manuel López López, Daniel Márquez Gómez y Celia Pineda Gázquez, que son, respectivamente, fijo, refuerzo y sustituto.
 
-Cada trabajador dispone de una tarjeta personal mediante la cual registra su entrada y salida del centro. Se simulan diferentes registros horarios correspondientes a los días 3 y 4 de abril de 2026.
+El área no se relaciona directamente con los trabajadores, sino con la situación laboral de cada uno ese día: cada trabajador tiene una situación de trabajo (con su fecha de inicio) que se desempeña en el área. Cada uno de esos días trabajados lleva asociada su tarjeta, en la que se registra la fecha y hora de entrada y de salida.
 
-El objetivo de este escenario es comprobar que los trabajadores están asociados a su área correspondiente, que cada uno dispone de su propia tarjeta y que quedan registradas correctamente las fechas y horas de entrada y salida.
+El objetivo de este escenario es comprobar que cada día trabajado está asociado a su área correspondiente, que cada uno dispone de su propia tarjeta y que quedan registradas correctamente las fechas y horas de entrada y salida.
 
 Además, se comprueba que la información relativa a los permisos disfrutados y pendientes de cada trabajador se almacena correctamente.
 
@@ -410,11 +419,11 @@ En primer lugar, realiza una solicitud de permiso por motivos personales, indica
 Posteriormente, realiza otra solicitud por accidente laboral, que también es aceptada, aunque no dispone de una fecha de disfrute como tal debido a que es un periodo de 10 días que empiezan el
 26 de Octubre de 2026.
 
-Luego, se contemplan otras situaciones laborales del trabajador, como una licencia por intervención quirúrgica de un familiar, con una duración de cinco días, y una situación de trabajo relacionada con un día festivo.
+Luego, se contemplan otras situaciones laborales del trabajador, como una licencia por intervención quirúrgica de un familiar, con una duración de cinco días que comienza el 11 de noviembre de 2026, y una situación de trabajo realizada en un día festivo (festivo trabajado, la Asunción de la Virgen). Además, el permiso del 10 de noviembre se ha generado a partir del festivo «Día de Andalucía».
 
 El objetivo es comprobar que las solicitudes quedan asociadas al trabajador correspondiente, que se registra su estado y que las diferentes situaciones laborales se representan mediante sus respectivas especializaciones.
 
-También se pretende comprobar la distinción entre situaciones solicitables y no solicitables, así como la asociación de determinados trabajos con los días festivos.
+También se pretende comprobar la distinción entre situaciones solicitables y no solicitables, así como la asociación de determinados trabajos con los días festivos y de cada permiso con el único festivo que lo genera.
 
 
 **Escenario 3. Gestión de contratos y uniformes**
@@ -426,11 +435,11 @@ Descripción textual:
 
 Se desea comprobar la gestión de los contratos laborales y la asignación de uniformes a los trabajadores.
 
-Para ello, se considera a la trabajadora Carmen García Trujillo, que tiene un contrato de tipo sustituto con fecha de inicio del 1 de julio de 2026 y fecha de finalización del 31 de julio de 2026.
+Para ello, se considera a la trabajadora Carmen García Trujillo, que es trabajadora de tipo sustituto y ha tenido dos contratos: uno del 1 de julio de 2025 al 31 de julio de 2025 y otro del 1 de julio de 2026 al 31 de julio de 2026.
 
 Además, la trabajadora tiene asignados dos uniformes de talla M: uno de tipo polo y otro de tipo chaleco.
 
-El objetivo de este escenario es comprobar que cada contrato contiene correctamente sus fechas de inicio y finalización, que está asociado a su trabajador correspondiente y que un trabajador puede disponer de varios uniformes.
+El objetivo de este escenario es comprobar que cada contrato contiene correctamente sus fechas de inicio y finalización, que está asociado a su trabajador correspondiente, que un trabajador puede tener varios contratos y que un trabajador puede disponer de varios uniformes.
 
 También se comprueba que cada uniforme almacena su talla y tipo correspondiente.
 
@@ -441,39 +450,40 @@ También se comprueba que cada uniforme almacena su talla y tipo correspondiente
 |-----------|:----------:|:----------------:|:-----------------:|:----:|:----------:|:-----------:|:---------:|:--------------:|:---------------:|:---------:|:---------------:|:----------------:|:---------:|:---------------:|:----------------:|:-------:|:-------------:|:--------------:|:--------:|:--------------:|:---------------:|:-------:|:-------------:|:--------------:|:-----------:|:----------------:|:-----------------:|:--------:|:--------------:|:---------------:|:----:|:----------:|:-----------:|:-------:|:-------------:|:--------------:|:--------:|:--------------:|:---------------:|:-----:|:-----------:|:------------:|:--------:|:--------------:|:---------------:|
 | RF.01 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
 | RF.02 | X | X | X | X | X | X | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
-| RF.03 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| RF.04 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RF.03 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
+| RF.04 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
 | RF.05 | X | X | X | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | |
 | RF.06 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | |
-| RF.07 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | |
-| RF.08 | X | X | X | X | X | X | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RF.07 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RF.08 | X | X | X | X | X | X | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | X | X | X | | | | | | | | | |
 | RF.09 | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
 | RF.10 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | |
 | RF.11 | X | X | X | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | |
 | RF.12 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
 | RF.13 | X | X | X | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | |
 | RI.01 | X | X | X | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| RI.02 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RI.02 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
 | RI.03 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
 | RI.04 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
-| RI.05 | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | |
+| RI.05 | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | X | X | X | | | | X | X | X | | | | | | | | | |
 | RI.06 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | |
 | RI.07 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X |
 | RI.08 | X | X | X | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
 | RI.09 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | RI.10 | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | RN.01 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
-| RN.02 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| RN.02 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
 | RN.03 | X | X | X | | | | | | | X | X | X | X | X | X | | | | | | | | | | X | X | X | X | X | X | X | X | X | | | | | | | | | | | X | X |
 | RN.04 | X | X | X | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | X | X | X | | | | X | X | X | | | | | | | | | |
 | RN.05 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X |
 | RN.06 | X | X | X | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
 | RN.07 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | RN.08 | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
-| RN.09 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | |
+| RN.09 | X | X | X | X | X | X | | | | | | | | | | | | | | | | | | | X | X | X | | | | | | | X | X | X | | | | | | | | | |
 | RN.10 | X | X | X | | | | | | | | | | | | | X | X | X | | | | | | | | | | | | | | | | X | X | X | | | | | | | | | |
 | RN.11 | X | X | X | | | | | | | X | X | X | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | X | X | | | |
 | RN.12 | | | | | | | | | | X | X | X | | | | | | | | | | | | | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
+| RN.13 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | X | | X | | | | | | | | | | X | | X |
 
 
 ## 7. Modelo relacional en 3FN
@@ -509,5 +519,4 @@ Se consideran todo tipo de constraints declarativas (aquellas definidas durante 
 -- fin entregable 3 --
 
 ## Referencias
-
 
