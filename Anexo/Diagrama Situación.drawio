@@ -143,12 +143,12 @@
         <mxCell id="WQwDeNG5xcENpnNaMC_V-48" edge="1" parent="1" source="WQwDeNG5xcENpnNaMC_V-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.58;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=0;" target="WQwDeNG5xcENpnNaMC_V-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WQwDeNG5xcENpnNaMC_V-51" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;u&gt;Si3&lt;/u&gt;: Situación" vertex="1">
+        <mxCell id="WQwDeNG5xcENpnNaMC_V-51" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;u&gt;Si5&lt;/u&gt;: Situación" vertex="1">
           <mxGeometry height="60" width="150" x="75" y="580" as="geometry">
             <mxRectangle height="30" width="90" x="440" y="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WQwDeNG5xcENpnNaMC_V-52" parent="WQwDeNG5xcENpnNaMC_V-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fecha_inicio: 10/11/2026" vertex="1">
+        <mxCell id="WQwDeNG5xcENpnNaMC_V-52" parent="WQwDeNG5xcENpnNaMC_V-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fecha_inicio: 11/11/2026" vertex="1">
           <mxGeometry height="30" width="150" y="30" as="geometry" />
         </mxCell>
         <mxCell id="WQwDeNG5xcENpnNaMC_V-54" edge="1" parent="1" source="WQwDeNG5xcENpnNaMC_V-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.584;entryY=1.09;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=0;" target="WQwDeNG5xcENpnNaMC_V-52">
@@ -194,7 +194,7 @@
         <mxCell id="WQwDeNG5xcENpnNaMC_V-75" edge="1" parent="1" source="WQwDeNG5xcENpnNaMC_V-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="WQwDeNG5xcENpnNaMC_V-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WQwDeNG5xcENpnNaMC_V-72" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;F2&lt;/u&gt;: Festivos&lt;/font&gt;" vertex="1">
+        <mxCell id="WQwDeNG5xcENpnNaMC_V-72" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;F3&lt;/u&gt;: Festivos&lt;/font&gt;" vertex="1">
           <mxGeometry height="90" width="187" x="504" y="890" as="geometry" />
         </mxCell>
         <mxCell id="WQwDeNG5xcENpnNaMC_V-73" parent="WQwDeNG5xcENpnNaMC_V-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;nombre: &quot;Asunción de la Virgen&quot;&lt;/font&gt;" vertex="1">
@@ -203,7 +203,7 @@
         <mxCell id="WQwDeNG5xcENpnNaMC_V-74" parent="WQwDeNG5xcENpnNaMC_V-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;dia: 15/08/2026&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="187" y="60" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="lbl-festivoTrabajado" parent="1" vertex="1" value="&lt;u&gt;festivoTrabajado&lt;/u&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;"><mxGeometry x="603" y="840" width="110" height="30" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
