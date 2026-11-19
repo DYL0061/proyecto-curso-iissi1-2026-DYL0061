@@ -488,7 +488,170 @@ También se comprueba que cada uniforme almacena su talla y tipo correspondiente
 
 ## 7. Modelo relacional en 3FN
 
-- Relaciones obtenidas al aplicar la transformación del modelo conceptual.
+**Leyenda**
+
+- **PK**: clave primaria.
+- **FK→Relación**: clave ajena que referencia a la clave primaria de la relación.
+- **UNIQUE**: valor único. Cuando afecta a varios atributos se escribe `UNIQUE(a, b)`.
+- **NULL**: el atributo admite valores nulos. Todos los demás atributos son **NOT NULL**.
+
+<br>
+Los atributos derivados del modelo conceptual (n_permisosDisfrutados y n_permisosPendientes) no se almacenan: se calculan mediante una función SQL.
+
+<br><br>
+
+**Enumerados** <br>
+Cada enumerado del MC pasa a ser una relación.
+
+```
+TiposTrabajadores(
+    tipoTrabajadorId PK,
+    nombre UNIQUE
+)
+
+EstadosSolicitudes(
+    estadoSolicitudId PK,
+    nombre UNIQUE
+)
+
+TiposUniformes(
+    tipoUniformeId PK,
+    nombre UNIQUE
+)
+```
+
+**Entidades**
+
+```
+Trabajadores(
+    trabajadorId PK,
+    nombre,
+    apellidos,
+    dni UNIQUE,
+    tipoTrabajadorId FK→TiposTrabajadores
+)
+
+Contratos(
+    contratoId PK,
+    fechaInicio,
+    fechaFin,
+    trabajadorId FK→Trabajadores,
+    UNIQUE(trabajadorId, fechaInicio)
+)
+
+Uniformes(
+    uniformeId PK,
+    talla,
+    tipoUniformeId FK→TiposUniformes,
+    trabajadorId FK→Trabajadores NULL
+)
+
+Areas(
+    areaId PK,
+    nombre UNIQUE,
+    nTrabajadoresNecesarios
+)
+
+Festivos(
+    festivoId PK,
+    dia UNIQUE,
+    nombre
+)
+```
+
+**Jerarquía Situación, Solicitable y NoSolicitable**
+
+```
+Situaciones(
+    situacionId PK,
+    fechaInicio
+)
+
+Solicitables(
+    situacionId PK, FK→Situaciones
+)
+
+NoSolicitables(
+    situacionId PK, FK→Situaciones
+)
+
+Vacaciones(
+    situacionId PK, FK→Solicitables,
+    mes
+)
+
+Permisos(
+    situacionId PK, FK→Solicitables,
+    festivoId FK→Festivos
+)
+
+Bajas(
+    situacionId PK, FK→Solicitables,
+    duracion NULL
+)
+
+Descansos(
+    situacionId PK, FK→NoSolicitables
+)
+
+Faltas(
+    situacionId PK, FK→NoSolicitables
+)
+
+Licencias(
+    situacionId PK, FK→NoSolicitables,
+    motivo,
+    grado,
+    duracion NULL
+)
+
+Trabajos(
+    situacionId PK, FK→NoSolicitables,
+    areaId FK→Areas,
+    festivoId FK→Festivos NULL
+)
+```
+
+**Clases asociativas**
+
+```
+Solicitudes(
+    solicitudId PK,
+    diaSolicitado,
+    estadoSolicitudId FK→EstadoSolicitud,
+    diaDisfrutado NULL,
+    motivoSolicitud,
+    situacionId, FK→Solicitables
+    trabajadorId, FK→Trabajadores
+)
+
+Tarjetas(
+    tarjetaId PK,
+    fechaEntrada,
+    horaEntrada,
+    fechaSalida,
+    horaSalida,
+    situacionId, FK→Trabajos
+    areaId, FK→Areas
+)
+```
+
+**Relaciones de asociaciones [N..M]**
+
+```
+TrabajadoresSolicitables(
+    trabajadorSolicitableId PK,
+    trabajadorId, FK→Trabajadores
+    situacionId, FK→Solicitables
+)
+
+TrabajadoresNoSolicitables(
+    trabajadorNoSolicitableId PK,
+    trabajadorId, FK→Trabajadores
+    situacionId, FK→NoSolicitables
+)
+```
+
 
 ### 7.1.  Justificación de la estrategia de transformación de jerarquías
 
