@@ -43,13 +43,13 @@
         <mxCell id="Tj2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Tj2&lt;/u&gt;: Tarjeta" vertex="1">
           <mxGeometry height="150" width="170" x="280" as="geometry" />
         </mxCell>
-        <mxCell id="uRZ60JHYOROAbIdNguI_-56" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaEntrada:  03/04/2026" vertex="1">
+        <mxCell id="Tj2_a0" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 21:00:00" vertex="1">
           <mxGeometry height="30" width="170" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tj2_a0" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 21:00:00" vertex="1">
+        <mxCell id="Tj2_a1" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
           <mxGeometry height="30" width="170" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tj2_a1" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
+        <mxCell id="uRZ60JHYOROAbIdNguI_-56" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaEntrada:  03/04/2026" vertex="1">
           <mxGeometry height="30" width="170" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uRZ60JHYOROAbIdNguI_-57" parent="Tj2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaSalida: 07:00:00" vertex="1">
@@ -113,10 +113,10 @@
         <mxCell id="Tj3_a0" parent="Tj3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaEntrada:  03/04/2026" vertex="1">
           <mxGeometry height="30" width="176" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="uRZ60JHYOROAbIdNguI_-58" parent="Tj3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 21:00:00" vertex="1">
+        <mxCell id="Tj3_a1" parent="Tj3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
           <mxGeometry height="30" width="176" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tj3_a1" parent="Tj3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
+        <mxCell id="uRZ60JHYOROAbIdNguI_-58" parent="Tj3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 21:00:00" vertex="1">
           <mxGeometry height="30" width="176" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uRZ60JHYOROAbIdNguI_-59" parent="Tj3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaSalida: 02:00:00" vertex="1">
@@ -158,10 +158,10 @@
         <mxCell id="Tj4_a0" parent="Tj4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaEntrada:  03/04/2026" vertex="1">
           <mxGeometry height="30" width="176" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="uRZ60JHYOROAbIdNguI_-62" parent="Tj4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 22:00:00" vertex="1">
+        <mxCell id="Tj4_a1" parent="Tj4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
           <mxGeometry height="30" width="176" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tj4_a1" parent="Tj4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
+        <mxCell id="uRZ60JHYOROAbIdNguI_-62" parent="Tj4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 22:00:00" vertex="1">
           <mxGeometry height="30" width="176" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uRZ60JHYOROAbIdNguI_-63" parent="Tj4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaSalida: 07:00:00" vertex="1">
@@ -236,10 +236,10 @@
         <mxCell id="uRZ60JHYOROAbIdNguI_-36" parent="uRZ60JHYOROAbIdNguI_-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaEntrada:  03/04/2026" vertex="1">
           <mxGeometry height="30" width="176" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="uRZ60JHYOROAbIdNguI_-60" parent="uRZ60JHYOROAbIdNguI_-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 22:00:00" vertex="1">
+        <mxCell id="uRZ60JHYOROAbIdNguI_-37" parent="uRZ60JHYOROAbIdNguI_-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
           <mxGeometry height="30" width="176" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="uRZ60JHYOROAbIdNguI_-37" parent="uRZ60JHYOROAbIdNguI_-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 04/04/2026" vertex="1">
+        <mxCell id="uRZ60JHYOROAbIdNguI_-60" parent="uRZ60JHYOROAbIdNguI_-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaEntrada: 22:00:00" vertex="1">
           <mxGeometry height="30" width="176" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uRZ60JHYOROAbIdNguI_-61" parent="uRZ60JHYOROAbIdNguI_-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaSalida: 07:00:00" vertex="1">
