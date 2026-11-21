@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Página-1">
-    <mxGraphModel dx="585" dy="1488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="741" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -186,7 +186,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wodp8TRkAoGX4ZUFVLHb-106" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wodp8TRkAoGX4ZUFVLHb-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="wodp8TRkAoGX4ZUFVLHb-35">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1778.5" y="582.8" />
+              <mxPoint x="1918.5" y="582.8" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wodp8TRkAoGX4ZUFVLHb-44" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;" value="Tarjeta" vertex="1">
           <mxGeometry height="150" width="179.5" x="1599" y="530" as="geometry" />
@@ -194,10 +199,10 @@
         <mxCell id="wodp8TRkAoGX4ZUFVLHb-45" parent="wodp8TRkAoGX4ZUFVLHb-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;spacing=2;" value="fechaEntrada:&amp;nbsp; Date" vertex="1">
           <mxGeometry height="30" width="179.5" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="nGbsqmd96bc0lygXmbKI-0" parent="wodp8TRkAoGX4ZUFVLHb-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;spacing=2;" value="horaEntrada:&amp;nbsp; Time" vertex="1">
+        <mxCell id="wodp8TRkAoGX4ZUFVLHb-46" parent="wodp8TRkAoGX4ZUFVLHb-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: Date" vertex="1">
           <mxGeometry height="30" width="179.5" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="wodp8TRkAoGX4ZUFVLHb-46" parent="wodp8TRkAoGX4ZUFVLHb-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: Date" vertex="1">
+        <mxCell id="nGbsqmd96bc0lygXmbKI-0" parent="wodp8TRkAoGX4ZUFVLHb-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;spacing=2;" value="horaEntrada:&amp;nbsp; Time" vertex="1">
           <mxGeometry height="30" width="179.5" y="90" as="geometry" />
         </mxCell>
         <mxCell id="nGbsqmd96bc0lygXmbKI-1" parent="wodp8TRkAoGX4ZUFVLHb-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaSalida: Time" vertex="1">
@@ -438,8 +443,8 @@
         </mxCell>
         <mxCell id="wodp8TRkAoGX4ZUFVLHb-186" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1779.34" y="610.3" as="sourcePoint" />
-            <mxPoint x="2026" y="610.0099999999995" as="targetPoint" />
+            <mxPoint x="1779.34" y="632.3" as="sourcePoint" />
+            <mxPoint x="2026" y="632.0099999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wodp8TRkAoGX4ZUFVLHb-187" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TipoUniforme" vertex="1">
