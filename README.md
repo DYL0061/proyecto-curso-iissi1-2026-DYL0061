@@ -632,6 +632,7 @@ Tarjetas(
     fechaSalida,
     horaSalida,
     situacionId, FK→Trabajos
+    trabajadorId, FK→Trabajadores
     areaId, FK→Areas
 )
 ```
