@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Página-1">
-    <mxGraphModel dx="2784" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -87,7 +87,7 @@
         <mxCell id="BIa_U9unXIhfH5Z5p4sB-161" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Si1&lt;/u&gt;: Trabajo&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="95" x="840" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="BIa_U9unXIhfH5Z5p4sB-167" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BIa_U9unXIhfH5Z5p4sB-164" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;dashPattern=12 12;">
+        <mxCell id="BIa_U9unXIhfH5Z5p4sB-167" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BIa_U9unXIhfH5Z5p4sB-164" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.362;exitY=-0.016;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;dashed=1;dashPattern=12 12;exitPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="835.6666666666665" y="520" as="targetPoint" />
           </mxGeometry>
@@ -96,13 +96,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIa_U9unXIhfH5Z5p4sB-164" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;u&gt;Tj1&lt;/u&gt;: Tarjeta" vertex="1">
-          <mxGeometry height="90" width="234" x="777" y="600" as="geometry" />
+          <mxGeometry height="150" width="162.63" x="777" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="BIa_U9unXIhfH5Z5p4sB-165" parent="BIa_U9unXIhfH5Z5p4sB-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;spacing=2;" value="fechaHoraEntrada:&amp;nbsp; 01/11/2026 22:00:00" vertex="1">
-          <mxGeometry height="30" width="234" y="30" as="geometry" />
+        <mxCell id="BIa_U9unXIhfH5Z5p4sB-165" parent="BIa_U9unXIhfH5Z5p4sB-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;spacing=2;" value="fechaEntrada:&amp;nbsp; 01/11/2026" vertex="1">
+          <mxGeometry height="30" width="162.63" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="BIa_U9unXIhfH5Z5p4sB-166" parent="BIa_U9unXIhfH5Z5p4sB-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaHoraSalida: 02/11/2026 06:00:00" vertex="1">
-          <mxGeometry height="30" width="234" y="60" as="geometry" />
+        <mxCell id="BIa_U9unXIhfH5Z5p4sB-184" parent="BIa_U9unXIhfH5Z5p4sB-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=12;spacing=2;" value="horaEntrada:&amp;nbsp; 22:00:00" vertex="1">
+          <mxGeometry height="30" width="162.63" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BIa_U9unXIhfH5Z5p4sB-166" parent="BIa_U9unXIhfH5Z5p4sB-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="fechaSalida: 02/11/2026" vertex="1">
+          <mxGeometry height="30" width="162.63" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BIa_U9unXIhfH5Z5p4sB-185" parent="BIa_U9unXIhfH5Z5p4sB-164" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="horaSalida: 06:00:00" vertex="1">
+          <mxGeometry height="30" width="162.63" y="120" as="geometry" />
         </mxCell>
         <mxCell id="BIa_U9unXIhfH5Z5p4sB-168" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;u&gt;está&lt;/u&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="750" y="490" as="geometry" />
@@ -128,7 +134,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BIa_U9unXIhfH5Z5p4sB-174" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;A1&lt;/u&gt;: Área" vertex="1">
-          <mxGeometry height="90" width="200" x="1120" y="600" as="geometry" />
+          <mxGeometry height="90" width="200" x="1130" y="630" as="geometry" />
         </mxCell>
         <mxCell id="BIa_U9unXIhfH5Z5p4sB-175" parent="BIa_U9unXIhfH5Z5p4sB-174" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;nombre: &quot;Cocina&quot;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="200" y="30" as="geometry" />
@@ -140,7 +146,7 @@
           <mxGeometry height="30" width="60" x="1030" y="475" as="geometry" />
         </mxCell>
         <mxCell id="BIa_U9unXIhfH5Z5p4sB-180" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;u&gt;seFichaEn&lt;/u&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="1036" y="615" as="geometry" />
+          <mxGeometry height="30" width="60" x="1041" y="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
