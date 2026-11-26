@@ -34,7 +34,7 @@
 | **Falta injustificada** | Ausencia del trabajador sin una causa justificada. También se registra si se marcha antes sin motivo justificado. | <img width="120" alt="Puesto de trabajo sin cubrir" src="https://tse4.mm.bing.net/th/id/OIP.SXsFAsMSrKYNYSPVRs52LAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" /> |
 | **Falta justificada** | Ausencia del trabajador por motivos legítimos. | <img width="120" alt="Justificante médico" src="https://tse3.mm.bing.net/th/id/OIP.ZbcpNnyEVIM-4z4NwmdLpAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" /> |
 | **Ficha del trabajador** | Información asociada a cada trabajador donde se registran, entre otras cosas, sus permisos durante el año. | <img width="120" alt="Ficha digital del trabajador" src="https://imgv2-2-f.scribdassets.com/img/document/866465542/original/fa743d2303/1?v=1" /> |
-| **Fichaje (Pica Digital)** | Registro de la entrada y salida de un trabajador. El sistema registra las horas mediante una tarjeta digital, situada en cada una de las áreas. | <img width="120" alt="Fichaje mediante tarjeta digital" src="https://rfidtag.com/wp-content/uploads/2025/09/1.-What-is-RFID-Worker-Tracking.jpg" /> |
+| **Fichaje (Pica Digital)** | Registro de la entrada y salida de un trabajador. El sistema registra las horas mediante una tarjeta digital. | <img width="120" alt="Fichaje mediante tarjeta digital" src="https://rfidtag.com/wp-content/uploads/2025/09/1.-What-is-RFID-Worker-Tracking.jpg" /> |
 | **Hora de entrada** | Hora a la que el trabajador comienza a trabajar, registrada mediante el sistema de fichaje. | <img width="120" alt="Registro de entrada" src="https://www.shutterstock.com/image-photo/clock-8-oclock-260nw-281328350.jpg" /> |
 | **Hora de salida** | Hora a la que el trabajador termina de trabajar un determinado día, registrada mediante el sistema de fichaje. | <img width="120" alt="Reloj que registra la hora de salida" src="https://static3.depositphotos.com/1005855/211/i/950/depositphotos_2116034-stock-photo-three-oclock.jpg" /> |
 | **Hora de salida anticipada** | Registro del horario en el que un trabajador termina su jornada antes de lo habitual por algún motivo. | <img width="120" alt="Reloj de pared" src="https://fotografias.antena3.com/clipping/cmsimages01/2021/10/22/05749F08-8F3D-44F6-A485-F81C85947D02/default.jpg?crop=16:9&optimize=low&format=webply" /> |
@@ -351,20 +351,19 @@ Si no se indica la duración de una baja o de una licencia, se entiende que corr
 
 ### 4.2. Mapa de historias de usuario
 
-Las historias de usuario se organizan según las principales actividades del sistema y las responsabilidades de cada encargado.
+Las historias de usuario se organizan atendiendo a las principales actividades del sistema y las responsabilidades de cada encargado.
 
 | Actividad | Historia de usuario | Requisitos asociados |
 |---|---|---|
-| **Planificar la plantilla** | Como encargado de personal, quiero consultar la situación diaria de los trabajadores para conocer quién trabaja, quién descansa y quién está ausente. | RF.01, RI.01, RI.03 |
-| **Planificar la plantilla** | Como responsable de planificación, quiero consultar los trabajadores disponibles, los puestos sin cubrir y la planificación de un día concreto para organizar correctamente los turnos. | RF.02, RF.04, RF.05, RI.02, RI.05 |
-| **Planificar la plantilla** | Como responsable de calidad, quiero consultar la asignación de trabajadores por área y turno para comprobar que el personal está correctamente distribuido. | RF.03, RI.04 |
-| **Gestionar permisos y licencias** | Como encargado de personal, quiero consultar las fichas de los trabajadores y las solicitudes pendientes para gestionar los permisos y descansos solicitados. | RF.06, RF.07, RI.09 |
-| **Gestionar permisos y licencias** | Como responsable de planificación, quiero gestionar la información de los permisos anuales y las licencias de los trabajadores. | RI.06, RI.07 |
-| **Gestionar vacaciones** | Como responsable de planificación, quiero consultar el cuadrante de vacaciones y las necesidades de sustitución para garantizar la cobertura de los puestos de trabajo. | RF.08, RI.08 |
-| **Controlar horas y asistencia** | Como responsable de calidad, quiero consultar los fichajes y las horas acumuladas de los trabajadores para comprobar el cumplimiento de la jornada laboral. | RF.09 |
-| **Controlar horas y asistencia** | Como encargado de personal, quiero consultar las faltas injustificadas y los festivos trabajados por cada empleado para mantener actualizado el control de asistencia. | RF.10, RF.13, RI.10 |
-| **Gestionar uniformes y estadillo** | Como encargado de material, quiero consultar los uniformes necesarios por tipo de prenda y talla para realizar correctamente los pedidos. | RF.11 |
-| **Gestionar uniformes y estadillo** | Como encargado de personal, quiero consultar el estadillo mensual con la situación laboral de cada trabajador para preparar el documento que se envía a la oficina. | RF.12 |
+| **Planificar la plantilla** | Como encargado de personal, quiero consultar la situación diaria de los trabajadores para conocer quién trabaja, quién descansa y quién está ausente. | RF.01, RI.01, RI.03, RI.06, RI.07, RI.08 |
+| **Planificar la plantilla** | Como responsable de planificación, quiero consultar los trabajadores disponibles, los puestos sin cubrir y la planificación de un día concreto para organizar correctamente los turnos. | RF.02, RF.04, RF.05, RI.01, RI.02, RI.03, RI.04, RI.05, RI.06, RI.07, RI.08 |
+| **Planificar la plantilla** | Como responsable de calidad, quiero consultar la asignación de trabajadores por área y turno para comprobar que el personal está correctamente distribuido. | RF.03, RI.01, RI.02, RI.03, RI.04 |
+| **Gestionar permisos** | Como encargado de personal, quiero consultar las fichas de los trabajadores, sus permisos y las solicitudes pendientes para gestionar los permisos y descansos solicitados. | RF.06, RF.07, RI.01, RI.05, RI.06, RI.07, RI.08, RI.09 |
+| **Gestionar vacaciones** | Como responsable de planificación, quiero consultar el cuadrante de vacaciones y las necesidades de sustitución para garantizar la cobertura de los puestos de trabajo. | RF.08, RI.01, RI.08, RI.09 |
+| **Controlar horas** | Como responsable de calidad, quiero consultar los fichajes y las horas acumuladas de los trabajadores para comprobar el cumplimiento de la jornada laboral. | RF.09, RI.04, RI.10 |
+| **Controlar asistencia** | Como encargado de personal, quiero consultar las faltas injustificadas y los festivos trabajados por cada empleado para mantener actualizado el control de asistencia. | RF.10, RF.13, RI.03, RI.04, RI.05, RI.10 |
+| **Gestionar uniformes** | Como encargado de material, quiero consultar los uniformes necesarios por tipo de prenda y talla para realizar correctamente los pedidos, incluyendo una previsión para los sustitutos. | RF.11, RI.01, RI.08 |
+| **Gestionar estadillo** | Como encargado de personal, quiero consultar el estadillo mensual con la situación laboral de cada trabajador para preparar el documento que se envía a la oficina. | RF.12, RI.03 |
 
 
 
@@ -384,7 +383,7 @@ El sistema debe estar organizado de forma óptima para facilitar la corrección 
 
 ### 5.1. Diagramas de clases UML
 
-![Diagrama de clases](/Imágenes/Modelado%20Conceptual.png)
+![alt text](image-1.png)
 
 ### 5.2. Escenarios de prueba
 **Escenario 1. Asignación de trabajadores a áreas y control de horas.**
