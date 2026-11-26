@@ -388,7 +388,7 @@ El sistema debe estar organizado de forma óptima para facilitar la corrección 
 ### 5.2. Escenarios de prueba
 **Escenario 1. Asignación de trabajadores a áreas y control de horas.**
 
-![Diagrama de objetos. Área](/Imágenes/Diagrama%20Área.png)
+![alt text](image.png)
 
 Descripción textual:
 
