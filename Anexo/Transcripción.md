@@ -64,7 +64,7 @@ Poseemos una relación de vacaciones. Seguimos un sistema rotativo de vacaciones
 
 **Jaime:** Háblame más sobre la tarjeta. 
 
-**Cliente:** La tarjeta es identificativa para cada trabajador, y digital. Cuando se entra cada trabajador ha de picar en un “pica digital”, donde se registra la hora a la que entra, la hora a la que sale, y el cúmulo de horas que posee cada trabajador. Esto ha sido impuesto por el gobierno para evitar que se trabajé más o por contrario que se trabajé menos. 
+**Cliente:** La tarjeta es identificativa para cada trabajador, y digital. Cuando se entra cada trabajador ha de picar en un “pica digital”, situado en cada una de las áreas, donde se registra la hora a la que entra, la hora a la que sale, y el cúmulo de horas que posee cada trabajador. Esto ha sido impuesto por el gobierno para evitar que se trabajé más o por contrario que se trabajé menos. 
 
 También tengo una relación con los uniformes de cada trabajador, los tipos de ropa que hay: casaca, pantalón, polito, chaleco, camisa… A cada trabajador le tengo anotadas las tallas, para que, cuando se vayan a solicitar los uniformes, me aparezca cuantos he de pedir de cada tipo. Independientemente, siempre hay que tener una previsión, porque las personas que entran para sustituir han de tener también su propia ropa. 
 
