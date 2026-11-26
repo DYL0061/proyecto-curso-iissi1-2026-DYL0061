@@ -383,7 +383,7 @@ El sistema debe estar organizado de forma óptima para facilitar la corrección 
 
 ### 5.1. Diagramas de clases UML
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ### 5.2. Escenarios de prueba
 **Escenario 1. Asignación de trabajadores a áreas y control de horas.**
