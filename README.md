@@ -494,8 +494,6 @@ También se comprueba que cada uniforme almacena su talla y tipo correspondiente
 - **UNIQUE**: valor único. Cuando afecta a varios atributos se escribe `UNIQUE(a, b)`.
 - **NULL**: el atributo admite valores nulos. Todos los demás atributos son **NOT NULL**.
 
-<br>
-Los atributos derivados del modelo conceptual (n_permisosDisfrutados y n_permisosPendientes) no se almacenan: se calculan mediante una función SQL.
 
 <br><br>
 
@@ -527,15 +525,16 @@ Trabajadores(
     nombre,
     apellidos,
     dni UNIQUE,
-    tipoTrabajadorId FK→TiposTrabajadores
+    tipoTrabajadorId FK→TiposTrabajadores,
+    nPermisosDisfrutados NULL,
+    nPermisosPendientes NULL
 )
 
 Contratos(
     contratoId PK,
     fechaInicio,
     fechaFin,
-    trabajadorId FK→Trabajadores,
-    UNIQUE(trabajadorId, fechaInicio)
+    trabajadorId FK→Trabajadores
 )
 
 Uniformes(
@@ -553,8 +552,14 @@ Areas(
 
 Festivos(
     festivoId PK,
-    dia UNIQUE,
-    nombre
+    nombre,
+    dia UNIQUE
+)
+
+Grados(
+    gradoId PK,
+    numero,
+    duracion
 )
 ```
 
@@ -567,10 +572,6 @@ Situaciones(
 )
 
 Solicitables(
-    situacionId PK, FK→Situaciones
-)
-
-NoSolicitables(
     situacionId PK, FK→Situaciones
 )
 
@@ -590,23 +591,21 @@ Bajas(
 )
 
 Descansos(
-    situacionId PK, FK→NoSolicitables
+    situacionId PK, FK→Situaciones
 )
 
 Faltas(
-    situacionId PK, FK→NoSolicitables
+    situacionId PK, FK→Situaciones
 )
 
 Licencias(
-    situacionId PK, FK→NoSolicitables,
+    situacionId PK, FK→Situaciones
     motivo,
-    grado,
-    duracion NULL
+    gradoId, FK→Grados
 )
 
 Trabajos(
-    situacionId PK, FK→NoSolicitables,
-    areaId FK→Areas,
+    situacionId PK, FK→Situaciones
     festivoId FK→Festivos NULL
 )
 ```
@@ -627,8 +626,8 @@ Solicitudes(
 Tarjetas(
     tarjetaId PK,
     fechaEntrada,
-    horaEntrada,
     fechaSalida,
+    horaEntrada,
     horaSalida,
     situacionId, FK→Trabajos
     trabajadorId, FK→Trabajadores
@@ -645,10 +644,34 @@ TrabajadoresSolicitables(
     situacionId, FK→Solicitables
 )
 
-TrabajadoresNoSolicitables(
-    trabajadorNoSolicitableId PK,
+TrabajadoresFaltas(
+    trabajadoresFaltasId PK,
     trabajadorId, FK→Trabajadores
-    situacionId, FK→NoSolicitables
+    situacionId, FK→Faltas
+)
+
+TrabajadoresDescansos(
+    trabajadoresDescansosId PK,
+    trabajadorId, FK→Trabajadores
+    situacionId, FK→Descansos
+)
+
+TrabajadoresLicencias(
+    trabajadoresLicenciasId PK,
+    trabajadorId, FK→Trabajadores
+    situacionId, FK→Licencias
+)
+
+TrabajadoresTrabajos(
+    trabajadoresTrabajosId PK,
+    trabajadorId, FK→Trabajadores
+    situacionId, FK→Trabajos
+)
+
+TrabajosAreas(
+    trabajadoresAreasId PK,
+    situacionId, FK→Trabajos
+    areaId, FK→Areas
 )
 ```
 
